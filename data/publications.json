@@ -1,0 +1,1953 @@
+[
+ {
+  "cat": "journal",
+  "year": 2026,
+  "title": "Analysis of inter-leg coordination mechanisms in cricket locomotion: insights from thoracic Ganglion network transection",
+  "title_en": "",
+  "authors": [
+   "Yasuhiro Sugimoto",
+   "Hiromi Togawa",
+   "Keisuke Naniwa",
+   "Daisuke Nakanishi",
+   "Koichi Osuka"
+  ],
+  "venue": "Bioinspiration & Biomimetics",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.1088/1748-3190/ae822d",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2026,
+  "title": "Development of implicit-explicit control based amphibious centipede-type robot and evaluation of its mobile performance",
+  "title_en": "",
+  "authors": [
+   "Yusuke Tsunoda",
+   "Seiya Yamamoto",
+   "Kazuki Ito",
+   "Runze Xiao",
+   "Keisuke Naniwa",
+   "Koichi Osuka"
+  ],
+  "venue": "Advanced Robotics",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.1080/01691864.2026.2697801",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2026,
+  "title": "Low-Cost and Tough Pneumatic Artificial Muscle (LT-PAM)",
+  "title_en": "",
+  "authors": [
+   "Keisuke Naniwa",
+   "Yasuhiro Sugimoto",
+   "Daisuke Nakanishi",
+   "Yoichi Masuda"
+  ],
+  "venue": "HardwareX",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.1016/j.ohx.2026.e00824",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2025,
+  "title": "Control of Multiple McKibben Pneumatic Actuators Using Small Solenoid Valves and Dynamic Quantizer",
+  "title_en": "",
+  "authors": [
+   "Yasuhiro Sugimoto",
+   "Keisuke Naniwa",
+   "Daisuke Nakanishi",
+   "Koichi Osuka"
+  ],
+  "venue": "Journal of Robotics and Mechatronics",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.20965/jrm.2025.p0123",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2025,
+  "title": "Development of Crab-Inspired Robot with Exoskeletal Structure and Embedded Pneumatic Artificial Pennate Muscles",
+  "title_en": "",
+  "authors": [
+   "Daisuke Nakanishi",
+   "Hiroki Hamaguchi",
+   "Yuta Hasegawa",
+   "Keisuke Naniwa",
+   "Yasuhiro Sugimoto"
+  ],
+  "venue": "Journal of Robotics and Mechatronics",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.20965/jrm.2025.p1581",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2025,
+  "title": "Modeling musculoskeletal systems with branching structures: A case study with the auxiliary tendon of the caudofemoralis longus muscle in crocodilians",
+  "title_en": "",
+  "authors": [
+   "Kaito Kimura",
+   "Takahiro Goto",
+   "Kazuki Ito",
+   "Tetsuya Kinugasa",
+   "Kentaro Chiba",
+   "Keisuke Naniwa",
+   "Daisuke Nakanishi",
+   "Koichi Osuka",
+   "Yasuhiro Sugimoto"
+  ],
+  "venue": "Nonlinear Theory and Its Applications, IEICE",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.1587/nolta.16.651",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2025,
+  "title": "Realizing the Bending Motion of a McKibben Pneumatic Actuator via Elastic Adhesive Coating",
+  "title_en": "",
+  "authors": [
+   "Keiichiro Kan",
+   "Takahiro Goto",
+   "Keisuke Naniwa",
+   "Daisuke Nakanishi",
+   "Koichi Osuka",
+   "Yasuhiro Sugimoto"
+  ],
+  "venue": "Journal of Robotics and Mechatronics",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.20965/jrm.2025.p0013",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2025,
+  "title": "柔軟全周囲クローラの身体特性を基にしたデッドレコニング手法の二次元平面内における実機検証",
+  "title_en": "Verification in a two-dimensional plane for a dead reckoning method based on posture information of Flexible Mono-tread mobile-Track",
+  "authors": [
+   "近藤翔太",
+   "伊東和輝",
+   "浪花啓右",
+   "角田祐輔",
+   "衣笠哲也",
+   "大須賀公一"
+  ],
+  "venue": "自律分散システム・シンポジウム(CD-ROM)",
+  "volume": "37th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2025,
+  "title": "無限定環境での土砂搬送に向けた柔軟湾曲型コンベア\"FMAC′′の開発と物体搬送実験",
+  "title_en": "Development and object transportation experiments of Flexible Mono-Tread Active Conveyor \"FMAC′′ for transporting sediment in unknown environments",
+  "authors": [
+   "小椋寛展",
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一",
+   "佐藤孝雄"
+  ],
+  "venue": "日本機械学会ロボティクス・メカトロニクス講演会講演論文集(CD-ROM)",
+  "volume": "2025",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2025,
+  "title": "複数の汎用輸送コンテナ\"BRAINS\"による分散型ロボットの合体分離システムの提案",
+  "title_en": "Proposal for a Distributed Robot Combination and Separation System with Multiple General Purpose Transport Containers \"BRAINS\"",
+  "authors": [
+   "片山貴仁",
+   "伊東和輝",
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "自律分散システム・シンポジウム(CD-ROM)",
+  "volume": "37th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2025,
+  "title": "超長尺探査ロボット「龍宮の遣い」の開発-身体長と剛性変化が移動性能へ与える影響の検証-",
+  "title_en": "Development of the super long robot \"Ryugu-no-tsukai′′-Verification of the effect by variations in body length and stiffness on mobility performance-",
+  "authors": [
+   "長井友希",
+   "片山貴仁",
+   "伊東和輝",
+   "浪花啓右",
+   "角田祐輔",
+   "大須賀公一"
+  ],
+  "venue": "日本機械学会ロボティクス・メカトロニクス講演会講演論文集(CD-ROM)",
+  "volume": "2025",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2025,
+  "title": "軟弱地盤に有効なアンカー\"Root-Anchor′′の開発-身体と環境との相互作用を活用したブレード展開機構の提案-",
+  "title_en": "Development of \"Root-Anchor′′: an effective anchor for soft ground inspired by plant roots-Proposal for a blade deployment mechanism utilizing the interaction between the body and the environment-",
+  "authors": [
+   "道中恒",
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一",
+   "佐藤孝雄"
+  ],
+  "venue": "日本機械学会ロボティクス・メカトロニクス講演会講演論文集(CD-ROM)",
+  "volume": "2025",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2024,
+  "title": "Analysis of electric-free pneumatic circuits based on logic circuit and its application",
+  "title_en": "",
+  "authors": [
+   "Takahiro Goto",
+   "Yasuhiro Sugimoto",
+   "Daisuke Nakanishi",
+   "Keisuke Naniwa",
+   "Sho Ishibashi",
+   "Yoichi Masuda",
+   "Koichi Osuka"
+  ],
+  "venue": "Nonlinear Theory and Its Applications, IEICE",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.1587/nolta.15.459",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2024,
+  "title": "Length control of a McKibben pneumatic actuator using a dynamic quantizer",
+  "title_en": "",
+  "authors": [
+   "Yasuhiro Sugimoto",
+   "Keisuke Naniwa",
+   "Daisuke Nakanishi",
+   "Koichi Osuka"
+  ],
+  "venue": "ROBOMECH Journal",
+  "volume": "11",
+  "number": "1",
+  "pages": "",
+  "doi": "10.1186/s40648-024-00276-0",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "バルブでつくるロボットの感覚運動ネットワーク",
+  "title_en": "Sensory-motor network of a robot created with valves",
+  "authors": [
+   "増田容一",
+   "後藤貴滉",
+   "浪花啓右",
+   "中西大輔",
+   "浦大介",
+   "鈴木朱羅",
+   "杉本靖博"
+  ],
+  "venue": "日本機械学会ロボティクス・メカトロニクス講演会講演論文集(CD-ROM)",
+  "volume": "2024",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "双胴柔軟クローラロボット\"d-FlexCraw′′の姿勢制御と旋回性能評価",
+  "title_en": "Posture Control and Turning Performance Evaluation for the Flexible Tracked Vehicle \"d-FlexCraw′′",
+  "authors": [
+   "建部俊介",
+   "伊東和輝",
+   "浪花啓右",
+   "角田祐輔",
+   "衣笠哲也",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "25th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "双胴柔軟クローラ型ロボット\"d-FlexCraw′′の走行時姿勢制御と直進性評価",
+  "title_en": "Posture Control During Motion and Straight-line Performance Evaluation for the Flexible Tracked Vehicle\"d-FlexCraw′′",
+  "authors": [
+   "建部俊介",
+   "近藤翔太",
+   "伊東和輝",
+   "浪花啓右",
+   "角田祐輔",
+   "衣笠哲也",
+   "大須賀公一"
+  ],
+  "venue": "日本機械学会ロボティクス・メカトロニクス講演会講演論文集(CD-ROM)",
+  "volume": "2024",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "変形履帯シューの提案による履帯型掘削ロボット\"Antler′′に関する研究",
+  "title_en": "Study on the crawler-type excavation robot \"Antler′′ by proposing the transforming crawler shoe",
+  "authors": [
+   "片山貴仁",
+   "角田祐輔",
+   "浪花啓右",
+   "伊東和輝",
+   "大須賀公一"
+  ],
+  "venue": "日本機械学会ロボティクス・メカトロニクス講演会講演論文集(CD-ROM)",
+  "volume": "2024",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2024,
+  "title": "張力フィードバックによる拮抗二関節筋の自律的協調制御",
+  "title_en": "",
+  "authors": [
+   "Daisuke NAKANISHI",
+   "Yuina KADOWAKI",
+   "Taiki SHIGEMATSU",
+   "Keisuke NANIWA",
+   "Yasuhiro SUGIMOTO"
+  ],
+  "venue": "Transactions of the Society of Instrument and Control Engineers",
+  "volume": "60",
+  "number": "1",
+  "pages": "47–57",
+  "doi": "10.9746/sicetr.60.47",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "柔軟全周囲クローラ機構の姿勢情報に基づくオドメトリ手法の提案",
+  "title_en": "Prososal for a odometry method based on posture information of Flexible Mono-tread mobile-Track",
+  "authors": [
+   "近藤翔太",
+   "伊東和輝",
+   "建部俊介",
+   "浪花啓右",
+   "角田祐輔",
+   "衣笠哲也",
+   "大須賀公一"
+  ],
+  "venue": "日本機械学会ロボティクス・メカトロニクス講演会講演論文集(CD-ROM)",
+  "volume": "2024",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "植物の根に着想を得た軟弱地盤に有効なアンカー\"Root-Anchor\"の開発-第三報:防土泥使用のRoot-Anchorの製作と軟弱地盤での性能検証-",
+  "title_en": "Development of \"Root-Anchor\", an effective anchor for soft ground inspired by plant roots-Third Report: Trial manufacture of waterproof Root-Anchor and verification of its performance in soft ground-",
+  "authors": [
+   "有山直樹",
+   "浪花啓右",
+   "角田祐輔",
+   "伊東和輝",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会関西支部・システム制御情報学会シンポジウム講演論文集(CD-ROM)",
+  "volume": "2023",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "水を喰らって自己の構造体にする対河道閉塞用水排除ロボット\"i-CentiPot-Aqua′′の提案(第三報)水陸で立ち往生しない多脚移動機構の開発",
+  "title_en": "Proposal of a water removal robot that eats water and turns it into its own structure for River Blockage \"i-CentiPot-Aqua′′ Development of a multi-legged mobile mechanism that does not get stuck in land and water environments",
+  "authors": [
+   "山本誠也",
+   "伊東和輝",
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "25th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "水陸で立ち往生しない多脚ロボットの開発",
+  "title_en": "Development of a multi-legged robot that does not get stuck in land and water environments",
+  "authors": [
+   "山本誠也",
+   "伊東和輝",
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "システム制御情報学会研究発表講演会講演論文集(CD-ROM)",
+  "volume": "68th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "現場の要求に応じて柔軟に作業機と移動機の合体・分離を可能可能とする輸送コンテナ\"BRAINS\"の提案—Proposal for the \"BRAINS\" Transport Container Enabling Flexible Integration and Separation of Work and Mobility Units",
+  "title_en": "",
+  "authors": [
+   "浪花 啓右",
+   "角田 祐輔",
+   "大須賀 公一"
+  ],
+  "venue": "システム制御情報学会研究発表講演会講演論文集",
+  "volume": "68",
+  "number": "",
+  "pages": "309–311",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "磁力を用いた非接触動力伝達による多脚移動ロボットの開発—Development of a Multi-Legged Mobile Robot with Non-Contact Power Transmission Using Magnetic Force",
+  "title_en": "",
+  "authors": [
+   "角田 祐輔",
+   "生澤 凱",
+   "浪花 啓右",
+   "大須賀 公一"
+  ],
+  "venue": "システム制御情報学会研究発表講演会講演論文集",
+  "volume": "68",
+  "number": "",
+  "pages": "301–303",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "超長尺探査ロボット「龍宮の遣い」の開発-長尺多脚ロボットの試作と検証-",
+  "title_en": "Development of the ultra-long exploration robot \"Ryugu-no-tsukai\"-Prototype and verification of a long multi-legged robot-",
+  "authors": [
+   "安永龍生",
+   "伊東和輝",
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会関西支部・システム制御情報学会シンポジウム講演論文集(CD-ROM)",
+  "volume": "2023",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2024,
+  "title": "高集積化可能な力覚感応空圧バルブの開発",
+  "title_en": "Development of high-integratable force sensitive pneumatic valve (FSPV)",
+  "authors": [
+   "中西大輔",
+   "後藤貴滉",
+   "浦大介",
+   "杉本靖博",
+   "鈴木朱羅",
+   "浪花啓右",
+   "増田容一"
+  ],
+  "venue": "日本機械学会ロボティクス・メカトロニクス講演会講演論文集(CD-ROM)",
+  "volume": "2024",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2023,
+  "title": "Characteristics verification of pneumatic artificial muscles for compressive loading",
+  "title_en": "",
+  "authors": [
+   "Takahiro Goto",
+   "Keisuke Naniwa",
+   "Daisuke Nakanishi",
+   "Yasuhiro Sugimoto",
+   "Yasushi Yagi",
+   "Yasushi Makihara",
+   "Tomoya Nakamura",
+   "Koichi Osuka"
+  ],
+  "venue": "Advanced Robotics",
+  "volume": "37",
+  "number": "14",
+  "pages": "887–899",
+  "doi": "10.1080/01691864.2023.2226200",
+  "refereed": true
+ },
+ {
+  "cat": "intl",
+  "year": 2023,
+  "title": "Gait analysis of locusts walking on level, vertical, and ceiling planes",
+  "title_en": "",
+  "authors": [
+   "Jun Fukui",
+   "Yasuhiro Sugimoto",
+   "Keisuke Naniwa",
+   "Daisuke Nakanishi",
+   "Koichi Osuka"
+  ],
+  "venue": "Proc. of 11th International Symposium on Adaptive Motion of Animals and Mechanics",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.18910/92305",
+  "refereed": true
+ },
+ {
+  "cat": "intl",
+  "year": 2023,
+  "title": "Musculoskeletal systems that generate extremely fast movements in the trap-jaw ants",
+  "title_en": "",
+  "authors": [
+   "Aonuma, Hitoshi",
+   "Naniwa, Keisuke",
+   "Ohkawara, Kyohsuke"
+  ],
+  "venue": "The 11th International Symposium on Adaptive Motion of Animals and Machines (AMAM2023)",
+  "volume": "",
+  "number": "",
+  "pages": "67–68",
+  "doi": "10.18910/92270",
+  "refereed": true
+ },
+ {
+  "cat": "journal",
+  "year": 2023,
+  "title": "Relationship between the shape of the elliptical knee joint and jumping height in a leg-type robot driven by pneumatic artificial muscle",
+  "title_en": "",
+  "authors": [
+   "Taichi Okumura",
+   "Daisuke Nakanishi",
+   "Keisuke Naniwa",
+   "Yasuhiro Sugimoto",
+   "Koichi Osuka"
+  ],
+  "venue": "ROBOMECH JOURNAL",
+  "volume": "10",
+  "number": "1",
+  "pages": "",
+  "doi": "10.1186/s40648-023-00250-2",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "双胴柔軟クローラ型ロボット\"d-FlexCraw′′の三次元姿勢取得と可視化",
+  "title_en": "Three-Dimensional Pose Acquisition and Visualization for the Flexible Tracked Vehicle ′′d-FlexCraw′′",
+  "authors": [
+   "建部俊介",
+   "近藤翔太",
+   "伊東和輝",
+   "浪花啓右",
+   "角田祐輔",
+   "衣笠哲也",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "24th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "履帯型掘削ロボット\"Antler′′の開発",
+  "title_en": "Development of the crawler-type excavation robot \"Antler′′",
+  "authors": [
+   "片山貴仁",
+   "角田祐輔",
+   "浪花啓右",
+   "伊東和輝",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "24th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "徹底的に立ち往生しないことを目指した移動機構 超多球面脚モジュールロボット:K3(KyuKyaKu)の平面構成走行",
+  "title_en": "Mobile mechanism aims to thoroughly avoid getting stuck spherical leg module robot:K3(KyuKyaKu) running experiment in planar configuration",
+  "authors": [
+   "浪花啓右",
+   "伊東和輝",
+   "杉本靖博",
+   "角田祐輔",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "24th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "徹底的に立ち往生しないことを目指した超多球面脚モジュールロボット:K3(KyuKyaKu)",
+  "title_en": "Multispherical leg module robot that aims to thoroughly avoid getting stuck: K3 (Kyukyaku)",
+  "authors": [
+   "浪花啓右",
+   "伊東和輝",
+   "角田祐輔",
+   "大須賀公一"
+  ],
+  "venue": "システム制御情報学会研究発表講演会講演論文集(CD-ROM)",
+  "volume": "67th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "機械式CPGおよび皮膚感覚受容器を備えた無脳ヘビ型ロボットの適応的運動生成",
+  "title_en": "",
+  "authors": [
+   "増田容一",
+   "後藤貴滉",
+   "浪花啓右",
+   "浦大介",
+   "中西大輔",
+   "鈴木朱羅",
+   "杉本靖博",
+   "大須賀公一"
+  ],
+  "venue": "日本ロボット学会学術講演会予稿集(CD-ROM)",
+  "volume": "41st",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "水を喰らって自己の構造体にする対河道閉塞用水排除ロボット\"i-CentiPot-Aqua′′の提案(第二報)水を体内に取り込むことで身体を形成する柔軟多脚ロボットの開発",
+  "title_en": "Proposal of a water removal robot that eats water and turns it into its own structure for River Blockage \"i-CentiPot-Aqua′′: Development of a flexible multi-legged robot growing by taking water into the body",
+  "authors": [
+   "山本誠也",
+   "伊東和輝",
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "24th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "水陸両用柔軟多脚ロボット\"i-CentiPot-Amphibian Jr.\"の開発",
+  "title_en": "Development of Amphibious flexible multi-legged mobile robot \"i-CentiPot-Amphibian Jr.\"",
+  "authors": [
+   "山本誠也",
+   "伊東和輝",
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "自律分散システム・シンポジウム(CD-ROM)",
+  "volume": "35th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "環境物を喰らうことで成長するロボットの開発-ロボットの自己機能評価と群システムの自己組織化戦略への拡張-",
+  "title_en": "Development of a robot that grows by eating environmental objects-Robot self-functional assessment and extension to self-organization strategies for swarm systems-",
+  "authors": [
+   "佐藤悠弥",
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "自律分散システム・シンポジウム(CD-ROM)",
+  "volume": "35th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "超分散型超多脚無脳歩行ロボットの試作",
+  "title_en": "Prototype of a Highly Decentralized and Super-Multipedal Brainless Walking Robot",
+  "authors": [
+   "増田 容一",
+   "後藤 貴滉",
+   "浪花 啓右",
+   "浦 大介",
+   "中西 大輔",
+   "鈴木 朱羅",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2023",
+  "number": "",
+  "pages": "1P1-I20",
+  "doi": "10.1299/jsmermd.2023.1p1-i20",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "開いた設計に基づく柔軟多脚ロボットの開発-異なる脚形状における移動性能の評価-",
+  "title_en": "Development of a Flexible multi-legged robot based on Open Design-Evaluation of mobility performance in different leg designs-",
+  "authors": [
+   "山本誠也",
+   "伊東和輝",
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "システム制御情報学会研究発表講演会講演論文集(CD-ROM)",
+  "volume": "67th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2023,
+  "title": "音場の陰的創成による群ロボットの未知環境踏破",
+  "title_en": "Swarm Robot Exploration in Unknown Environments by Implicit Creation of Acoustic Fields",
+  "authors": [
+   "角田祐輔",
+   "大塚聖賢",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "システム制御情報学会研究発表講演会講演論文集(CD-ROM)",
+  "volume": "67th",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "100の反射ループを内在した超分散型ロボットの製作",
+  "title_en": "Fabrication of a Highly-Decentralized Robot with 100 Inherent Reflex Loops",
+  "authors": [
+   "増田 容一",
+   "浦 大介",
+   "浪花 啓右",
+   "石川 将人"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2022",
+  "number": "",
+  "pages": "2P1-J05",
+  "doi": "10.1299/jsmermd.2022.2p1-j05",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2022,
+  "title": "Analysis of mode bifurcation between McKibben pneumatic actuators in the antagonist musculoskeletal model",
+  "title_en": "",
+  "authors": [
+   "Takahiro Goto",
+   "Yasuhiro Sugimoto",
+   "Daisuke Nakanishi",
+   "Keisuke Naniwa",
+   "Koichi Osuka"
+  ],
+  "venue": "Nonlinear Theory and Its Applications, IEICE",
+  "volume": "13",
+  "number": "4",
+  "pages": "598–614",
+  "doi": "10.1587/nolta.13.598",
+  "refereed": true
+ },
+ {
+  "cat": "preprint",
+  "year": 2022,
+  "title": "Embodied latch mechanism of the mandible to power at an ultrahigh speed in the trap-jaw ants Odontomachus kuroiwae",
+  "title_en": "",
+  "authors": [
+   "Hitoshi Aonuma",
+   "Keisuke Naniwa",
+   "Yasuhiro Sugimoto",
+   "Kyohsuke Ohkawara",
+   "Katsushi Kagaya"
+  ],
+  "venue": "bioRxiv",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.1101/2022.12.05.519247",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "だれでも筋骨格ロボットキット—オープンソースの人工筋肉と実験環境のレシピ",
+  "title_en": "A Musculoskeletal Robot Tool Kit: Recipes for Open Source Artificial Muscles and Experimental Environments",
+  "authors": [
+   "浪花 啓右",
+   "増田 容一",
+   "中西 大輔",
+   "浦 大介",
+   "杉本 靖博"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2022",
+  "number": "",
+  "pages": "2A2-M08",
+  "doi": "10.1299/jsmermd.2022.2a2-m08",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "カラスの歩容遷移メカニズム考察のための歩行解析",
+  "title_en": "Analysis of Locomotion for Studying the Mechanism of the Gait Transition in Crows",
+  "authors": [
+   "仙田直也",
+   "浪花啓右",
+   "浦大介",
+   "中西大輔",
+   "杉本靖博",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会関西支部・システム制御情報学会シンポジウム講演論文集(CD-ROM)",
+  "volume": "2021",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "マッキベン型人工筋肉による筋骨・関節・腱の多能的造形法",
+  "title_en": "Pluripotent Fabrication of Muscles, Bones, Joints, and Tendons Using McKibben-Type Artificial Muscles",
+  "authors": [
+   "増田 容一",
+   "浪花 啓右",
+   "中西 大輔",
+   "浦 大介",
+   "杉本 靖博"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2022",
+  "number": "",
+  "pages": "2P2-K10",
+  "doi": "10.1299/jsmermd.2022.2p2-k10",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "不整地での自動水平保持台の開発と動作実験",
+  "title_en": "Development and operational test of an automatic leveling table on uneven terrain",
+  "authors": [
+   "枦山眞之輔",
+   "羽田靖史",
+   "大須賀公一",
+   "角田祐輔",
+   "浪花啓右"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "23rd",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "伸縮ホースを用いた双方向伸展ホース型ロボット:i-CentiPot-Ammoniteの試作機の開発",
+  "title_en": "Development of prototype of Bidirectional Extendable Hose Robot with Telescopic Hose: \"i-CentiPot-Ammonite\"",
+  "authors": [
+   "角田祐輔",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "23rd",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "冗長な拮抗筋群を有する脚構造の自律協調制御",
+  "title_en": "Autonomous coordinated control of legged model with redundant antagonist muscle groups",
+  "authors": [
+   "渡部 陽也",
+   "中西 大輔",
+   "浪花 啓右",
+   "杉本 靖博"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2022",
+  "number": "",
+  "pages": "2P1-A06",
+  "doi": "10.1299/jsmermd.2022.2p1-a06",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "対河道閉塞用ポンプシステム\"i-CentiPot-Hose\"試作機の開発",
+  "title_en": "Development of a Prototype of a New Hose Pump System for River Blockage \"i-CentiPot-Hose\"",
+  "authors": [
+   "浪花啓右",
+   "角田祐輔",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "23rd",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "張力フィードバック協調制御を用いた空圧筋骨格ロボットの軌道追従制御の実現",
+  "title_en": "Realization of trajectory following control for a pneumatic musculoskeletal robot using tension feedback cooperative control",
+  "authors": [
+   "中西 大輔",
+   "澄川 貢輝",
+   "浪花 啓右",
+   "杉本 靖博"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2022",
+  "number": "",
+  "pages": "2P1-A01",
+  "doi": "10.1299/jsmermd.2022.2p1-a01",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "植物の根に着想を得た軟弱地盤に有効なアンカー\"Root-Anchor\"の開発-第二報:杭底自動拡縮型Root-Anchorの試作と性能検証-",
+  "title_en": "Development and performance verification of \"Root-Anchor\": an effective anchor for soft ground inspired by plant roots-Report 2: Prototype and Performance Verification of Automatic Expanding and Contracting Root-Anchor for Pile Bottom-",
+  "authors": [
+   "角田祐輔",
+   "大塚聖賢",
+   "佐藤悠弥",
+   "浪花啓右",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "23rd",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "空圧筋のための小型軽量な組込式張力センサの開発",
+  "title_en": "Development of a compact and lightwight built-in tension sensor for pneumatic artificial muscle",
+  "authors": [
+   "錦織 聖",
+   "中西 大輔",
+   "浪花 啓右",
+   "杉本 靖博"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2022",
+  "number": "",
+  "pages": "2A1-M07",
+  "doi": "10.1299/jsmermd.2022.2a1-m07",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "空気圧人工筋肉の圧縮負荷に対する特性の検証",
+  "title_en": "Characteristics verification of pneumatic artificial muscles for compressive load",
+  "authors": [
+   "後藤 貴滉",
+   "浪花 啓右",
+   "中西 大輔",
+   "杉本 靖博",
+   "八木 康史",
+   "槇原 靖",
+   "中村 友哉",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2022",
+  "number": "",
+  "pages": "2A1-L04",
+  "doi": "10.1299/jsmermd.2022.2a1-l04",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2022,
+  "title": "超多球面脚モジュールロボット:K3(KyuKyaKu)",
+  "title_en": "Multispherical Leg Module Robot: K3 (KyuKyaKu)",
+  "authors": [
+   "浪花啓右",
+   "伊東和輝",
+   "角田祐輔",
+   "大須賀公一"
+  ],
+  "venue": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+  "volume": "23rd",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2021,
+  "title": "Analysis of Autonomous Coordination Between Actuators in the Antagonist Musculoskeletal Model",
+  "title_en": "",
+  "authors": [
+   "Takahiro Goto",
+   "Yasuhiro Sugimoto",
+   "Daisuke Nakanishi",
+   "Keisuke Naniwa",
+   "Koichi Osuka"
+  ],
+  "venue": "Journal of Robotics and Mechatronics",
+  "volume": "33",
+  "number": "2",
+  "pages": "410–420",
+  "doi": "10.20965/jrm.2021.p0410",
+  "refereed": true
+ },
+ {
+  "cat": "journal",
+  "year": 2021,
+  "title": "Analysis of autonomous coordination between McKibben pneumatic actuators in the antagonist musculoskeletal model",
+  "title_en": "",
+  "authors": [
+   "Takahiro Goto",
+   "Yasuhiro Sugimoto",
+   "Daisuke Nakanishi",
+   "Keisuke Naniwa",
+   "Koichi Osuka"
+  ],
+  "venue": "Nonlinear Theory and Its Applications, IEICE",
+  "volume": "12",
+  "number": "3",
+  "pages": "424–441",
+  "doi": "10.1587/nolta.12.424",
+  "refereed": true
+ },
+ {
+  "cat": "journal",
+  "year": 2021,
+  "title": "Brainless Walking: Animal Gaits Emerge From an Actuator Characteristic",
+  "title_en": "",
+  "authors": [
+   "Yoichi Masuda",
+   "Keisuke Naniwa",
+   "Masato Ishikawa",
+   "Koichi Osuka"
+  ],
+  "venue": "Frontiers in Robotics and AI",
+  "volume": "8",
+  "number": "",
+  "pages": "",
+  "doi": "10.3389/frobt.2021.629679",
+  "refereed": true
+ },
+ {
+  "cat": "journal",
+  "year": 2021,
+  "title": "Descending and Ascending Signals That Maintain Rhythmic Walking Pattern in Crickets",
+  "title_en": "",
+  "authors": [
+   "Keisuke Naniwa",
+   "Hitoshi Aonuma"
+  ],
+  "venue": "Frontiers in Robotics and AI",
+  "volume": "8",
+  "number": "",
+  "pages": "",
+  "doi": "10.3389/frobt.2021.625094",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2021,
+  "title": "二関節筋を有する脚モデルの拮抗筋間協調制御に関する研究",
+  "title_en": "A study on cooperative control between antagonist muscles in a leg model with biarticular muscles",
+  "authors": [
+   "中西 大輔",
+   "門脇 唯菜",
+   "浪花 啓右",
+   "杉本 靖博"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2021",
+  "number": "",
+  "pages": "2P1-H08",
+  "doi": "10.1299/jsmermd.2021.2p1-h08",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2021,
+  "title": "空圧筋駆動脚型ロボットの跳躍高度追求—一膝関節形状と空圧筋間協調に関する実験的検証一",
+  "title_en": "Pursuit of Jumping Height for Pneumatic Muscle-driven Legged Robot-Experimental Verification of Knee Joint Shape and MPA Coordination Effect-",
+  "authors": [
+   "奥村 太一",
+   "中西 大輔",
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2021",
+  "number": "",
+  "pages": "2P1-H04",
+  "doi": "10.1299/jsmermd.2021.2p1-h04",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2020,
+  "title": "Analysis of the unique gait mechanism of locusts focusing on the difference in leg length",
+  "title_en": "",
+  "authors": [
+   "Yasuhiro Sugimoto",
+   "Shuntaro Sugiyama",
+   "Keisuke Naniwa",
+   "Koichi Osuka"
+  ],
+  "venue": "Advanced Robotics",
+  "volume": "34",
+  "number": "17",
+  "pages": "1110–1121",
+  "doi": "10.1080/01691864.2020.1750481",
+  "refereed": true
+ },
+ {
+  "cat": "journal",
+  "year": 2020,
+  "title": "Descending and ascending signals that maintain rhythmic walking pattern in the cricket",
+  "title_en": "",
+  "authors": [
+   "Keisuke Naniwa",
+   "Hitoshi Aonuma"
+  ],
+  "venue": "Frontiers in Robotics and AI",
+  "volume": "8",
+  "number": "",
+  "pages": "",
+  "doi": "10.1101/2020.11.02.364422",
+  "refereed": true
+ },
+ {
+  "cat": "journal",
+  "year": 2020,
+  "title": "Microinjection support system for small biological subjects",
+  "title_en": "",
+  "authors": [
+   "Yasuhiro Sugimoto",
+   "Keisuke Naniwa",
+   "Hitoshi Aonuma",
+   "Koichi Osuka"
+  ],
+  "venue": "HardwareX",
+  "volume": "7",
+  "number": "",
+  "pages": "",
+  "doi": "10.1016/j.ohx.2020.e00103",
+  "refereed": true
+ },
+ {
+  "cat": "journal",
+  "year": 2020,
+  "title": "Novel Method for Analyzing Flexible Locomotion Patterns of Animals by Using Polar Histogram",
+  "title_en": "",
+  "authors": [
+   "Keisuke Naniwa",
+   "Yasuhiro Sugimoto",
+   "Koichi Osuka",
+   "Hitoshi Aonuma"
+  ],
+  "venue": "Journal of Robotics and Mechatronics",
+  "volume": "32",
+  "number": "4",
+  "pages": "812–821",
+  "doi": "10.20965/jrm.2020.p0812",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2020,
+  "title": "ソフトマテリアルを用いた空圧筋測長センサの開発",
+  "title_en": "Development of sensor device for measuring axial length of McKibben Pneumatic Actuator with soft material",
+  "authors": [
+   "南井 渉",
+   "中西 大輔",
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2020",
+  "number": "",
+  "pages": "1P2-H11",
+  "doi": "10.1299/jsmermd.2020.1p2-h11",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2020,
+  "title": "二関節四筋を有する空圧筋脚口ボットの脚先軌道制御法の提案",
+  "title_en": "Proposal of a leg trajectory control method for a 2 DOF leg robot driven by four pnematic muscles",
+  "authors": [
+   "中西 大輔",
+   "加原 竜太",
+   "浪花 啓右",
+   "杉本 靖博"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2020",
+  "number": "",
+  "pages": "1P2-H08",
+  "doi": "10.1299/jsmermd.2020.1p2-h08",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2020,
+  "title": "空圧筋駆動脚ロボットの跳躍運動における二関節筋の影響の検証",
+  "title_en": "Verification of the effect of biarticular muscle on the jumping motion of the legged robot driven by McKibben pneumatic muscles",
+  "authors": [
+   "岩本 怜海",
+   "杉本 靖博",
+   "中西 大輔",
+   "浪花 啓右",
+   "後藤 貴混",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2020",
+  "number": "",
+  "pages": "1P2-H03",
+  "doi": "10.1299/jsmermd.2020.1p2-h03",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2020,
+  "title": "非対称な拮抗構造を有する空圧筋骨格脚モデルにおけるアクチュエータ間協調の解析",
+  "title_en": "Analysis for Cooperation of Actuators in Pneumatic Musculoskeletal Leg Model with Asymmetric Antagonistic Structure",
+  "authors": [
+   "中西 大輔",
+   "久保田 耀一朗",
+   "浪花 啓右",
+   "杉本 靖博"
+  ],
+  "venue": "システム制御情報学会論文誌",
+  "volume": "33",
+  "number": "5",
+  "pages": "131–138",
+  "doi": "10.5687/iscie.33.131",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2019,
+  "title": "Defecation initiates walking in the cricket Gryllus bimaculatus",
+  "title_en": "",
+  "authors": [
+   "Keisuke Naniwa",
+   "Yasuhiro Sugimoto",
+   "Koichi Osuka",
+   "Hitoshi Aonuma"
+  ],
+  "venue": "Journal of Insect Physiology",
+  "volume": "112",
+  "number": "",
+  "pages": "117–122",
+  "doi": "10.1016/j.jinsphys.2018.11.004",
+  "refereed": true
+ },
+ {
+  "cat": "domestic",
+  "year": 2019,
+  "title": "McKibben型空気圧アクチュエータの線形近似された張力モデルの実機検証",
+  "title_en": "Verification of linear approximation model of McKibben Pneumatic Actuator",
+  "authors": [
+   "吉田 匠吾",
+   "中西 大輔",
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "日本機械学会論文集",
+  "volume": "85",
+  "number": "878",
+  "pages": "18–00498",
+  "doi": "10.1299/transjsme.18-00498",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2019,
+  "title": "Three-dimensional morphological analysis of the dynamic digestive system in the green brittle star",
+  "title_en": "",
+  "authors": [
+   "Daiki Wakita",
+   "Keisuke Naniwa",
+   "Hitoshi Aonuma"
+  ],
+  "venue": "",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.1101/640235",
+  "refereed": true
+ },
+ {
+  "cat": "journal",
+  "year": 2019,
+  "title": "Verification of linear approximation model of McKibben Pneumatic Actuator",
+  "title_en": "",
+  "authors": [
+   "Shogo YOSHIDA",
+   "Daisuke NAKANISHI",
+   "Keisuke NANIWA",
+   "Yasuhiro SUGIMOTO",
+   "Koichi OSUKA"
+  ],
+  "venue": "Transactions of the JSME (in Japanese)",
+  "volume": "85",
+  "number": "878",
+  "pages": "18–00498",
+  "doi": "10.1299/transjsme.18-00498",
+  "refereed": true
+ },
+ {
+  "cat": "domestic",
+  "year": 2019,
+  "title": "コオロギゾンビ化のための頭部薬剤注入システム",
+  "title_en": "Head injection support system for cricket zombification",
+  "authors": [
+   "杉本 靖博",
+   "浪花 啓右",
+   "青沼 仁志",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2019",
+  "number": "",
+  "pages": "2P2-F01",
+  "doi": "10.1299/jsmermd.2019.2p2-f01",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2019,
+  "title": "空圧筋四脚ロボットの自律的な脚間協調による歩行実現",
+  "title_en": "Realization of autonomous leg coordination walking with quadruped robot driven by pneumatic artificial muscle",
+  "authors": [
+   "南井 渉",
+   "中西 大輔",
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2019",
+  "number": "",
+  "pages": "1P1-J05",
+  "doi": "10.1299/jsmermd.2019.1p1-j05",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2019,
+  "title": "空気圧人工筋を用いた拮抗筋モデルにおけるアクチュエータ間協調の解析",
+  "title_en": "Analysis of cooperation between actuators in antagonistic muscle model using pneumatic artificial muscles",
+  "authors": [
+   "後藤 貴滉",
+   "吉田 匠吾",
+   "中西 大輔",
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2019",
+  "number": "",
+  "pages": "1P1-J04",
+  "doi": "10.1299/jsmermd.2019.1p1-j04",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2019,
+  "title": "脚長非対称性に着目した四脚歩行ロボットの歩容解析",
+  "title_en": "Gait Analysis of Quadruped Walking Robot focusing on Leg Length Asymmetry",
+  "authors": [
+   "杉本 靖博",
+   "浜元 雅大",
+   "浪花 啓右",
+   "大須賀 公一"
+  ],
+  "venue": "システム制御情報学会研究発表講演会講演論文集",
+  "volume": "63",
+  "number": "",
+  "pages": "1220–1222",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2019,
+  "title": "非対称な拮抗構造を有する空圧筋骨格脚モデルにおけるアクチュエータ間協調の解析—Analysis for cooperation of actuators in pneumatic musculoskeletal leg model with asymmetric antagonistic structure",
+  "title_en": "",
+  "authors": [
+   "中西 大輔",
+   "久保田 耀一朗",
+   "浪花 啓右",
+   "杉本 靖博"
+  ],
+  "venue": "システム制御情報学会研究発表講演会講演論文集",
+  "volume": "63",
+  "number": "",
+  "pages": "1223–1227",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2018,
+  "title": "Excretion initiates walking in the cricket Gryllus bimaculatus",
+  "title_en": "",
+  "authors": [
+   "Keisuke Naniwa",
+   "Yasuhiro Sugimoto",
+   "Koichi Osuka",
+   "Hitoshi Aonuma"
+  ],
+  "venue": "",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.1101/362723",
+  "refereed": true
+ },
+ {
+  "cat": "intl",
+  "year": 2018,
+  "title": "Image-based Measurement of Ultra-fast Movement of Mandible in Trap-Jaw Ants",
+  "title_en": "",
+  "authors": [
+   "Asahi Matsuda",
+   "Hitoshi Aonuma",
+   "Keisuke Naniwa",
+   "Shun'ichi Kaneko"
+  ],
+  "venue": "Proceedings - 2018 12th France-Japan and 10th Europe-Asia Congress on Mechatronics, Mecatronics 2018",
+  "volume": "",
+  "number": "",
+  "pages": "89–93",
+  "doi": "10.1109/MECATRONICS.2018.8495687",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2018,
+  "title": "McKibben型空気圧アクチュエータの粘弾性を線形和で表現した張力モデルの実機検証",
+  "title_en": "Verification of linear sum model of McKibben Pnuematic Actuator considering the dynamic charastaristic",
+  "authors": [
+   "吉田 匠吾",
+   "中西 大輔",
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2018",
+  "number": "",
+  "pages": "2A2-I14",
+  "doi": "10.1299/jsmermd.2018.2a2-i14",
+  "refereed": false
+ },
+ {
+  "cat": "intl",
+  "year": 2018,
+  "title": "Weak actuators generate adaptive animal gaits without a brain",
+  "title_en": "",
+  "authors": [
+   "Yoichi Masuda",
+   "Keisuke Naniwa",
+   "Masato Ishikawa",
+   "Koichi Osuka"
+  ],
+  "venue": "2017 IEEE International Conference on Robotics and Biomimetics, ROBIO 2017",
+  "volume": "2018-",
+  "number": "",
+  "pages": "2638–2645",
+  "doi": "10.1109/ROBIO.2017.8324817",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2018,
+  "title": "アギトアリの大顎の機構モデリング",
+  "title_en": "Modeling of the mechanism of mandidles in trap-jaw ants",
+  "authors": [
+   "松田 朝陽",
+   "青沼 仁志",
+   "浪花 啓右",
+   "金子 俊一"
+  ],
+  "venue": "精密工学会学術講演会講演論文集",
+  "volume": "2018A",
+  "number": "",
+  "pages": "646–647",
+  "doi": "10.11522/pscjspe.2018a.0_646",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2018,
+  "title": "アギトアリ顎部の高速運動を生む関節構造の立体模型を用いた解析",
+  "title_en": "Analyzing the trap-jaw mechanism of Odontomachus with a scale model",
+  "authors": [
+   "和田 啓雅",
+   "杉本 靖博",
+   "青沼 仁志",
+   "浪花 啓右",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2018",
+  "number": "",
+  "pages": "2P1-D12",
+  "doi": "10.1299/jsmermd.2018.2p1-d12",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2018,
+  "title": "コントローラをもたない無脳6脚歩行ロボットの適応的運動生成",
+  "title_en": "Adaptive Gait Generation of Brainless Hexapod Robot without a Controller",
+  "authors": [
+   "増田 容一",
+   "浪花 啓右",
+   "石川 将人",
+   "大須賀 公一"
+  ],
+  "venue": "システム制御情報学会研究発表講演会講演論文集",
+  "volume": "62",
+  "number": "",
+  "pages": "6p",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2018,
+  "title": "拮抗配置した空気圧人工筋における自律的なアクチュエータ間協調の実現",
+  "title_en": "Realization of autonomously cooperation between actuators used pneumatic artificial muscles in antagonistic arrangement",
+  "authors": [
+   "後藤 貴滉",
+   "吉田 匠吾",
+   "中西 大輔",
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "フルードパワーシステム講演会講演論文集 = The proceedings Conference of Japan Fluid Power System Society",
+  "volume": "",
+  "number": "",
+  "pages": "67–69",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2018,
+  "title": "空気圧人工筋を用いた脚ロボットの跳躍運動入力設計",
+  "title_en": "Pressure input design of the 2D legged robot using McKibben Pneumatic Actuator",
+  "authors": [
+   "吉田 匠吾",
+   "中西 大輔",
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "フルードパワーシステム講演会講演論文集 = The proceedings Conference of Japan Fluid Power System Society",
+  "volume": "",
+  "number": "",
+  "pages": "70–72",
+  "doi": "",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2018,
+  "title": "繰り返し負荷によるMcKibben型空気圧アクチュエータの特性変化に関する実験的解析",
+  "title_en": "",
+  "authors": [
+   "杉本 靖博",
+   "花岡 慧",
+   "吉田 匠吾",
+   "中西 大輔",
+   "浪花 啓右",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2018",
+  "number": "",
+  "pages": "2A2-I13",
+  "doi": "10.1299/jsmermd.2018.2a2-i13",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2018,
+  "title": "脳による中央制御系を排除したコオロギのふるまい",
+  "title_en": "Gait pattern in the cricket that is free from the brain control",
+  "authors": [
+   "浪花 啓右",
+   "青沼 仁志",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2018",
+  "number": "",
+  "pages": "1P1-D13",
+  "doi": "10.1299/jsmermd.2018.1p1-d13",
+  "refereed": false
+ },
+ {
+  "cat": "intl",
+  "year": 2017,
+  "title": "Weak Actuators Generate Versatile Locomotion Patterns without a Brain",
+  "title_en": "",
+  "authors": [
+   "K. Naniwa",
+   "Y. Masuda",
+   "M. Ishikawa",
+   "K. Osuka"
+  ],
+  "venue": "",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "10.1109/ROBIO.2017.8324591",
+  "refereed": true
+ },
+ {
+  "cat": "domestic",
+  "year": 2017,
+  "title": "アンテナフェンシングに介入可能なコオロギ侵襲型デバイスの開発",
+  "title_en": "",
+  "authors": [
+   "杉本 靖博",
+   "浪花 啓右",
+   "青沼 仁志",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2017",
+  "number": "",
+  "pages": "1A1-E10",
+  "doi": "10.1299/jsmermd.2017.1A1-E10",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2017,
+  "title": "クロコオロギの闘争行動に介入可能な移動ロボットシステムの開発にむけて",
+  "title_en": "",
+  "authors": [
+   "杉本 靖博",
+   "浪花 啓右",
+   "青沼 仁志",
+   "大須賀 公一"
+  ],
+  "venue": "横幹連合コンファレンス予稿集",
+  "volume": "2017",
+  "number": "",
+  "pages": "D-2-3",
+  "doi": "10.11487/oukan.2017.0_d-2-3",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2016,
+  "title": "コオロギの闘争行動を誘発する小型移動ロボットの開発",
+  "title_en": "",
+  "authors": [
+   "杉本 靖博",
+   "浪花 啓右",
+   "青沼 仁志",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2016",
+  "number": "",
+  "pages": "1A2-05a6",
+  "doi": "10.1299/jsmermd.2016.1a2-05a6",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2016,
+  "title": "モーションキャプチャおよび表面筋電位を用いた合気道の体の転換における動作解析",
+  "title_en": "",
+  "authors": [
+   "西尾 健",
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2016",
+  "number": "",
+  "pages": "1P1-11b7",
+  "doi": "10.1299/jsmermd.2016.1p1-11b7",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2015,
+  "title": "粗いEMG情報を用いて関節剛性を表現するマスタースレーブシステムの提案",
+  "title_en": "",
+  "authors": [
+   "西尾 健",
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2015",
+  "number": "",
+  "pages": "1P1-G10",
+  "doi": "10.1299/jsmermd.2015._1p1-g10_1",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2015,
+  "title": "螺旋配置FST (FST-Helix)による姿勢計測システムの構築",
+  "title_en": "",
+  "authors": [
+   "杉本 克文",
+   "浪花 啓右",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2015",
+  "number": "",
+  "pages": "1P1-G09",
+  "doi": "10.1299/jsmermd.2015._1p1-g09_1",
+  "refereed": false
+ },
+ {
+  "cat": "domestic",
+  "year": 2015,
+  "title": "転動ロボットの外殻に依存した旋回運動の解析",
+  "title_en": "",
+  "authors": [
+   "平野 哲郎",
+   "浪花 啓右",
+   "石川 将人",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2015",
+  "number": "",
+  "pages": "2P1-R06",
+  "doi": "10.1299/jsmermd.2015._2p1-r06_1",
+  "refereed": false
+ },
+ {
+  "cat": "journal",
+  "year": 2013,
+  "title": "Static and dynamic properties of McKibben pneumatic actuator for self-stability of legged-robot motion",
+  "title_en": "",
+  "authors": [
+   "Yasuhiro Sugimoto",
+   "Keisuke Naniwa",
+   "Koichi Osuka",
+   "Yoshiyuki Sankai"
+  ],
+  "venue": "Advanced Robotics",
+  "volume": "27",
+  "number": "6",
+  "pages": "469–480",
+  "doi": "10.1080/01691864.2013.763007",
+  "refereed": true
+ },
+ {
+  "cat": "domestic",
+  "year": 2011,
+  "title": "McKibben型空気圧アクチュエータが持つ動的特性のロボット運動の安定性に対する寄与",
+  "title_en": "",
+  "authors": [
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2011",
+  "number": "",
+  "pages": "2P2-K05",
+  "doi": "10.1299/jsmermd.2011._2p2-k05_1",
+  "refereed": false
+ },
+ {
+  "cat": "intl",
+  "year": 2011,
+  "title": "Static and Dynamic Characteristics of McKibben Pneumatic Actuator for Realization of Stable Robot Motions",
+  "title_en": "",
+  "authors": [
+   "Yasuhiro Sugimoto",
+   "Keisuke Naniwa",
+   "Koichi Osuka"
+  ],
+  "venue": "2011 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": true
+ },
+ {
+  "cat": "intl",
+  "year": 2010,
+  "title": "Stability Analysis of Robot Motions driven by McKibben Pneumatic Actuator",
+  "title_en": "",
+  "authors": [
+   "Yasuhiro Sugimoto",
+   "Keisuke Naniwa",
+   "Koichi Osuka"
+  ],
+  "venue": "IEEE/RSJ 2010 International Conference on Intelligent Robots and Systems (IROS)",
+  "volume": "",
+  "number": "",
+  "pages": "",
+  "doi": "",
+  "refereed": true
+ },
+ {
+  "cat": "domestic",
+  "year": 2010,
+  "title": "ロボットに適用されるMcKibben型空気圧アクチュエータのモデル化とその評価",
+  "title_en": "",
+  "authors": [
+   "浪花 啓右",
+   "杉本 靖博",
+   "大須賀 公一"
+  ],
+  "venue": "ロボティクス・メカトロニクス講演会講演概要集",
+  "volume": "2010",
+  "number": "",
+  "pages": "2A1-A04",
+  "doi": "10.1299/jsmermd.2010._2a1-a04_1",
+  "refereed": false
+ }
+]

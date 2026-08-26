@@ -1,0 +1,44 @@
+[
+ {
+  "date": "2026-09-01",
+  "cat": "paper",
+  "title": "空気圧人工筋 LT-PAM の論文が HardwareX に掲載されました",
+  "sub": "Naniwa, Sugimoto, Nakanishi, Masuda, \"Low-Cost and Tough Pneumatic Artificial Muscle (LT-PAM)\", HardwareX (2026).",
+  "url": "https://doi.org/10.1016/j.ohx.2026.e00824"
+ },
+ {
+  "date": "2026-08-01",
+  "cat": "paper",
+  "title": "コオロギの脚間協調メカニズムに関する論文が Bioinspiration & Biomimetics に掲載されました",
+  "sub": "神経系と身体・環境の相互作用から歩容がどう決まるかを解析した研究です．",
+  "url": ""
+ },
+ {
+  "date": "2026-07-01",
+  "cat": "paper",
+  "title": "水陸両用ムカデ型ロボットの論文が Advanced Robotics に掲載されました",
+  "sub": "陰的制御と陽的制御を組み合わせた多脚ロボットの移動制御に関する研究です．",
+  "url": ""
+ },
+ {
+  "date": "2026-06-01",
+  "cat": "paper",
+  "title": "イモムシ群のロコモーションに関する論文が DARS2026 に採択されました",
+  "sub": "Distributed Autonomous Robotic Systems 2026・Regular Paper 採択．",
+  "url": ""
+ },
+ {
+  "date": "2026-06-01",
+  "cat": "event",
+  "title": "ロボティクス・メカトロニクス講演会 2026（Robomech2026）で発表しました",
+  "sub": "空間周波数に基づく地形解析と移動ロボットの走破性評価について報告しました．",
+  "url": ""
+ },
+ {
+  "date": "2026-04-01",
+  "cat": "lab",
+  "title": "新4年生が研究室に配属されました",
+  "sub": "",
+  "url": ""
+ }
+]

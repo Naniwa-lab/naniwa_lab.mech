@@ -1,0 +1,28 @@
+{
+ "faculty": [
+  {
+   "name": "浪花 啓右",
+   "name_en": "Keisuke NANIWA",
+   "role": "准教授 / Associate Professor",
+   "photo": "",
+   "degree": "博士（工学）",
+   "affiliation": "北海道科学大学 工学部 機械工学科",
+   "field": "移動ロボティクス，ソフトアクチュエータ，生物規範型ロコモーション，群ロボット",
+   "email": "naniwa-k [at] hus.ac.jp",
+   "links": [
+    { "label": "researchmap", "url": "https://researchmap.jp/Naniwa_K" },
+    { "label": "ORCID", "url": "https://orcid.org/0000-0003-3171-958X" }
+   ],
+   "bio": [
+    "「なぜ生きものはあんなに上手く動けるのか」を出発点に，脚・体・環境の相互作用からロコモーションを読み解き，それをロボットの形に落とし込む研究をしています．",
+    "空気圧人工筋（McKibben型）のような柔らかいアクチュエータ，多脚・群ロボット，不整地の走破性評価などが主なテーマです．実機を作って外に持ち出し，動かして考えるスタイルを大事にしています."
+   ]
+  }
+ ],
+ "students": [
+  { "grade": "M2", "name": "（準備中）", "theme": "" },
+  { "grade": "M1", "name": "（準備中）", "theme": "" },
+  { "grade": "B4", "name": "（準備中）", "theme": "" }
+ ],
+ "alumni": []
+}

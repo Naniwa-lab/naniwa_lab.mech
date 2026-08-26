@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>フィールドロコモーション研究室 | 北海道科学大学 工学部 機械工学科 浪花研究室</title>
+<meta name="description" content="北海道科学大学 工学部 機械工学科 フィールドロコモーション研究室（浪花研）の公式サイト．生物のロコモーション解析，空気圧人工筋などのソフトアクチュエータ，不整地を走破する移動ロボットの研究を行っています．">
+<meta property="og:title" content="フィールドロコモーション研究室 | 北海道科学大学 工学部 機械工学科 浪花研究室">
+<meta property="og:description" content="北海道科学大学 工学部 機械工学科 フィールドロコモーション研究室（浪花研）の公式サイト．生物のロコモーション解析，空気圧人工筋などのソフトアクチュエータ，不整地を走破する移動ロボットの研究を行っています．">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="フィールドロコモーション研究室 | 北海道科学大学 工学部 機械工学科 浪花研究室">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <a href="index.html">
+        <span class="brand-ja">フィールドロコモーション研究室</span>
+        <span class="brand-en">Field Locomotion Lab</span>
+      </a>
+    </div>
+    <button class="nav-toggle" aria-expanded="false" aria-label="メニュー">MENU</button>
+    <nav class="nav">
+      <a href="index.html" aria-current="page">ホーム</a>
+      <a href="research.html">研究内容</a>
+      <a href="members.html">メンバー</a>
+      <a href="publications.html">業績</a>
+      <a href="news.html">お知らせ</a>
+      <a href="join.html">配属を考えている方へ</a>
+      <a href="access.html">アクセス</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="hero-eyebrow">Hokkaido University of Science &middot; Dept. of Mechanical Engineering</p>
+    <h1>生きものの動きを解きほぐし，<br>フィールドを走るロボットをつくる．</h1>
+    <p class="hero-en">FIELD LOCOMOTION LAB &nbsp;/&nbsp; NANIWA LABORATORY</p>
+    <p class="lead">
+      昆虫は脳で一歩ずつ足を制御しているわけではありません．脚のかたち，筋のやわらかさ，
+      地面からの反力——身体と環境の相互作用そのものが，すでに「計算」をしています．
+      私たちはその仕組みを実験と数理モデルで解きほぐし，同じ原理で
+      整地されていない現実の場所（フィールド）を動きまわるロボットへと翻訳しています．
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="research.html">研究内容を見る</a>
+      <a class="btn btn-ghost" href="join.html">配属を考えている方へ</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Research</span>
+      <h2>4つの柱で「動き」に迫る</h2>
+      <p>生物の運動解析からアクチュエータ開発，フィールドでの走破性評価まで．
+         解析だけ・ものづくりだけに閉じないのが，この研究室のやり方です．</p>
+    </div>
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="num">01</div>
+        <h3>生きものの歩き方を解剖する</h3>
+        <p>コオロギ，バッタ，ムカデ，カニ——さまざまな生物の歩行を計測し，
+           脚と脚がどう協調しているのかを解析します．神経系がやっている仕事と，
+           身体そのものがやっている仕事を切り分けるのが狙いです．</p>
+        <div class="tags">
+          <span class="tag">歩容解析</span><span class="tag">脚間協調</span>
+          <span class="tag">位相振動子モデル</span><span class="tag">神経生理</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h3>やわらかいアクチュエータをつくる</h3>
+        <p>McKibben型空気圧人工筋を軸に，安価で丈夫な人工筋 LT-PAM，
+           張力センサを内蔵した筋，さらには電気を一切使わない空圧論理回路まで．
+           「柔らかさ」そのものが制御を肩代わりする世界を狙っています．</p>
+        <div class="tags">
+          <span class="tag">空気圧人工筋</span><span class="tag">ソフトロボティクス</span>
+          <span class="tag">拮抗二関節筋</span><span class="tag">電気レス空圧回路</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h3>フィールドを走破する移動ロボット</h3>
+        <p>実験室の平らな床ではなく，土・瓦礫・斜面といった現実の地形で動くこと．
+           地形を空間周波数で捉えて走破性を定量評価する手法や，
+           水陸両用の多脚ロボット，災害対応を想定したモジュール型ロボットを扱っています．</p>
+        <div class="tags">
+          <span class="tag tag-earth">不整地移動</span><span class="tag tag-earth">走破性評価</span>
+          <span class="tag tag-earth">災害対応ロボット</span><span class="tag tag-earth">多脚ロボット</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="num">04</div>
+        <h3>脳がなくても歩けるのか</h3>
+        <p>“Brainless Walking”——弱いアクチュエータを並べるだけで，
+           動物らしい歩容が勝手に立ち上がる．身体に埋め込まれた制御（陰的制御）と，
+           それを束ねる群のふるまいを，理論と実機の両側から追いかけています．</p>
+        <div class="tags">
+          <span class="tag">陰的制御</span><span class="tag">身体性</span>
+          <span class="tag">群ロボット</span><span class="tag">自律分散</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Publications</span>
+      <h2>研究のかたち</h2>
+    </div>
+    <div class="stats" data-pubstats></div>
+    <p class="small muted" style="margin-top:14px">
+      researchmap 掲載の業績をもとにしています．
+      <a href="publications.html">業績一覧はこちら</a>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">News</span>
+      <h2>お知らせ</h2>
+    </div>
+    <div data-news="5"></div>
+    <p style="margin-top:28px"><a class="btn btn-line" href="news.html">お知らせをすべて見る</a></p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap narrow center">
+    <div class="section-head" style="margin-bottom:20px">
+      <span class="eyebrow">Join us</span>
+      <h2>いっしょに動くものをつくりませんか</h2>
+      <p style="margin-left:auto;margin-right:auto">
+        機械・電気・プログラミング・生物，どこから入ってきても大丈夫です．
+        研究室見学はいつでも歓迎します．
+      </p>
+    </div>
+    <a class="btn btn-solid" href="join.html">配属を考えている方へ</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-lab">フィールドロコモーション研究室（浪花研究室）</p>
+        <p class="footer-addr">
+          北海道科学大学 工学部 機械工学科<br>
+          〒006-8585 北海道札幌市手稲区前田7条15丁目4-1<br>
+          E-mail：naniwa-k [at] hus.ac.jp
+        </p>
+      </div>
+      <div>
+        <h4>サイト内</h4>
+        <ul>
+          <li><a href="research.html">研究内容</a></li>
+          <li><a href="members.html">メンバー</a></li>
+          <li><a href="publications.html">業績</a></li>
+          <li><a href="news.html">お知らせ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>外部リンク</h4>
+        <ul>
+          <li><a href="https://www.hus.ac.jp/" target="_blank" rel="noopener">北海道科学大学</a></li>
+          <li><a href="https://researchmap.jp/Naniwa_K" target="_blank" rel="noopener">researchmap</a></li>
+          <li><a href="https://orcid.org/0000-0003-3171-958X" target="_blank" rel="noopener">ORCID</a></li>
+          <li><a href="join.html">配属を考えている方へ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; フィールドロコモーション研究室 / Keisuke Naniwa, Hokkaido University of Science</span>
+      <span>Field Locomotion Lab</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+
+</body>
+</html>
