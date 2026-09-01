@@ -7,3 +7,10 @@ __pycache__/
 
 # fetch_researchmap.py が残すバックアップ
 *.bak
+
+# 認証情報：絶対にコミットしない（Pagesで全世界に公開されます）
+*token*
+*secret*
+*.pem
+.env
+.env.*
