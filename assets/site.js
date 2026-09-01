@@ -28,6 +28,29 @@
 
   var CAT_LABEL = { paper: "論文", award: "受賞", event: "イベント", lab: "研究室" };
 
+  /* ---- サイト共通情報（data/site.json）を流し込む ----
+     HTML側の  <span data-site="lab"></span>  のような要素に値が入ります．
+     研究室名・住所・連絡先を変えたいときは data/site.json だけ直せばOKです． */
+  fetch("data/site.json", { cache: "no-cache" })
+    .then(function (r) { return r.json(); })
+    .then(function (s) {
+      Array.prototype.forEach.call(document.querySelectorAll("[data-site]"), function (el) {
+        var v = s[el.getAttribute("data-site")];
+        if (v) el.textContent = v;
+      });
+      Array.prototype.forEach.call(document.querySelectorAll("[data-site-href]"), function (el) {
+        var v = s[el.getAttribute("data-site-href")];
+        if (v) el.href = v;
+      });
+      var box = document.querySelector("[data-site-links]");
+      if (box && s.links) {
+        box.innerHTML = s.links.map(function (l) {
+          return '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a></li>";
+        }).join("");
+      }
+    })
+    .catch(function () { /* site.json が無くてもHTMLの初期値で表示されます */ });
+
   /* ---- News ---- */
   var newsBoxes = document.querySelectorAll("[data-news]");
   if (newsBoxes.length) {

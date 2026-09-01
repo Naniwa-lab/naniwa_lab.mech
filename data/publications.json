@@ -159,8 +159,8 @@
  {
   "cat": "domestic",
   "year": 2025,
-  "title": "無限定環境での土砂搬送に向けた柔軟湾曲型コンベア\"FMAC′′の開発と物体搬送実験",
-  "title_en": "Development and object transportation experiments of Flexible Mono-Tread Active Conveyor \"FMAC′′ for transporting sediment in unknown environments",
+  "title": "無限定環境での土砂搬送に向けた柔軟湾曲型コンベア\"FMAC\"の開発と物体搬送実験",
+  "title_en": "Development and object transportation experiments of Flexible Mono-Tread Active Conveyor \"FMAC\" for transporting sediment in unknown environments",
   "authors": [
    "小椋寛展",
    "角田祐輔",
@@ -198,7 +198,7 @@
   "cat": "domestic",
   "year": 2025,
   "title": "超長尺探査ロボット「龍宮の遣い」の開発-身体長と剛性変化が移動性能へ与える影響の検証-",
-  "title_en": "Development of the super long robot \"Ryugu-no-tsukai′′-Verification of the effect by variations in body length and stiffness on mobility performance-",
+  "title_en": "Development of the super long robot \"Ryugu-no-tsukai\"-Verification of the effect by variations in body length and stiffness on mobility performance-",
   "authors": [
    "長井友希",
    "片山貴仁",
@@ -217,8 +217,8 @@
  {
   "cat": "domestic",
   "year": 2025,
-  "title": "軟弱地盤に有効なアンカー\"Root-Anchor′′の開発-身体と環境との相互作用を活用したブレード展開機構の提案-",
-  "title_en": "Development of \"Root-Anchor′′: an effective anchor for soft ground inspired by plant roots-Proposal for a blade deployment mechanism utilizing the interaction between the body and the environment-",
+  "title": "軟弱地盤に有効なアンカー\"Root-Anchor\"の開発-身体と環境との相互作用を活用したブレード展開機構の提案-",
+  "title_en": "Development of \"Root-Anchor\": an effective anchor for soft ground inspired by plant roots-Proposal for a blade deployment mechanism utilizing the interaction between the body and the environment-",
   "authors": [
    "道中恒",
    "角田祐輔",
@@ -296,8 +296,8 @@
  {
   "cat": "domestic",
   "year": 2024,
-  "title": "双胴柔軟クローラロボット\"d-FlexCraw′′の姿勢制御と旋回性能評価",
-  "title_en": "Posture Control and Turning Performance Evaluation for the Flexible Tracked Vehicle \"d-FlexCraw′′",
+  "title": "双胴柔軟クローラロボット\"d-FlexCraw\"の姿勢制御と旋回性能評価",
+  "title_en": "Posture Control and Turning Performance Evaluation for the Flexible Tracked Vehicle \"d-FlexCraw\"",
   "authors": [
    "建部俊介",
    "伊東和輝",
@@ -316,8 +316,8 @@
  {
   "cat": "domestic",
   "year": 2024,
-  "title": "双胴柔軟クローラ型ロボット\"d-FlexCraw′′の走行時姿勢制御と直進性評価",
-  "title_en": "Posture Control During Motion and Straight-line Performance Evaluation for the Flexible Tracked Vehicle\"d-FlexCraw′′",
+  "title": "双胴柔軟クローラ型ロボット\"d-FlexCraw\"の走行時姿勢制御と直進性評価",
+  "title_en": "Posture Control During Motion and Straight-line Performance Evaluation for the Flexible Tracked Vehicle\"d-FlexCraw\"",
   "authors": [
    "建部俊介",
    "近藤翔太",
@@ -337,8 +337,8 @@
  {
   "cat": "domestic",
   "year": 2024,
-  "title": "変形履帯シューの提案による履帯型掘削ロボット\"Antler′′に関する研究",
-  "title_en": "Study on the crawler-type excavation robot \"Antler′′ by proposing the transforming crawler shoe",
+  "title": "変形履帯シューの提案による履帯型掘削ロボット\"Antler\"に関する研究",
+  "title_en": "Study on the crawler-type excavation robot \"Antler\" by proposing the transforming crawler shoe",
   "authors": [
    "片山貴仁",
    "角田祐輔",
@@ -415,8 +415,8 @@
  {
   "cat": "domestic",
   "year": 2024,
-  "title": "水を喰らって自己の構造体にする対河道閉塞用水排除ロボット\"i-CentiPot-Aqua′′の提案(第三報)水陸で立ち往生しない多脚移動機構の開発",
-  "title_en": "Proposal of a water removal robot that eats water and turns it into its own structure for River Blockage \"i-CentiPot-Aqua′′ Development of a multi-legged mobile mechanism that does not get stuck in land and water environments",
+  "title": "水を喰らって自己の構造体にする対河道閉塞用水排除ロボット\"i-CentiPot-Aqua\"の提案(第三報)水陸で立ち往生しない多脚移動機構の開発",
+  "title_en": "Proposal of a water removal robot that eats water and turns it into its own structure for River Blockage \"i-CentiPot-Aqua\" Development of a multi-legged mobile mechanism that does not get stuck in land and water environments",
   "authors": [
    "山本誠也",
    "伊東和輝",
@@ -605,8 +605,8 @@
  {
   "cat": "domestic",
   "year": 2023,
-  "title": "双胴柔軟クローラ型ロボット\"d-FlexCraw′′の三次元姿勢取得と可視化",
-  "title_en": "Three-Dimensional Pose Acquisition and Visualization for the Flexible Tracked Vehicle ′′d-FlexCraw′′",
+  "title": "双胴柔軟クローラ型ロボット\"d-FlexCraw\"の三次元姿勢取得と可視化",
+  "title_en": "Three-Dimensional Pose Acquisition and Visualization for the Flexible Tracked Vehicle \"d-FlexCraw\"",
   "authors": [
    "建部俊介",
    "近藤翔太",
@@ -626,8 +626,8 @@
  {
   "cat": "domestic",
   "year": 2023,
-  "title": "履帯型掘削ロボット\"Antler′′の開発",
-  "title_en": "Development of the crawler-type excavation robot \"Antler′′",
+  "title": "履帯型掘削ロボット\"Antler\"の開発",
+  "title_en": "Development of the crawler-type excavation robot \"Antler\"",
   "authors": [
    "片山貴仁",
    "角田祐輔",
@@ -704,8 +704,8 @@
  {
   "cat": "domestic",
   "year": 2023,
-  "title": "水を喰らって自己の構造体にする対河道閉塞用水排除ロボット\"i-CentiPot-Aqua′′の提案(第二報)水を体内に取り込むことで身体を形成する柔軟多脚ロボットの開発",
-  "title_en": "Proposal of a water removal robot that eats water and turns it into its own structure for River Blockage \"i-CentiPot-Aqua′′: Development of a flexible multi-legged robot growing by taking water into the body",
+  "title": "水を喰らって自己の構造体にする対河道閉塞用水排除ロボット\"i-CentiPot-Aqua\"の提案(第二報)水を体内に取り込むことで身体を形成する柔軟多脚ロボットの開発",
+  "title_en": "Proposal of a water removal robot that eats water and turns it into its own structure for River Blockage \"i-CentiPot-Aqua\": Development of a flexible multi-legged robot growing by taking water into the body",
   "authors": [
    "山本誠也",
    "伊東和輝",
@@ -1687,7 +1687,7 @@
   "cat": "domestic",
   "year": 2018,
   "title": "繰り返し負荷によるMcKibben型空気圧アクチュエータの特性変化に関する実験的解析",
-  "title_en": "",
+  "title_en": "Experimental analysis of the change characteristics of McKibben Pneumatic Actuator for repetition of load",
   "authors": [
    "杉本 靖博",
    "花岡 慧",
@@ -1743,7 +1743,7 @@
   "cat": "domestic",
   "year": 2017,
   "title": "アンテナフェンシングに介入可能なコオロギ侵襲型デバイスの開発",
-  "title_en": "",
+  "title_en": "Development of invasive device that can intervene in aggressive behavior of cricket",
   "authors": [
    "杉本 靖博",
    "浪花 啓右",
@@ -1761,7 +1761,7 @@
   "cat": "domestic",
   "year": 2017,
   "title": "クロコオロギの闘争行動に介入可能な移動ロボットシステムの開発にむけて",
-  "title_en": "",
+  "title_en": "Development of mobile robot that can intervene in aggressive behavior of crickets",
   "authors": [
    "杉本 靖博",
    "浪花 啓右",
@@ -1779,7 +1779,7 @@
   "cat": "domestic",
   "year": 2016,
   "title": "コオロギの闘争行動を誘発する小型移動ロボットの開発",
-  "title_en": "",
+  "title_en": "Development of small mobile robot that can induce aggressive behavior of cricket",
   "authors": [
    "杉本 靖博",
    "浪花 啓右",
@@ -1797,7 +1797,7 @@
   "cat": "domestic",
   "year": 2016,
   "title": "モーションキャプチャおよび表面筋電位を用いた合気道の体の転換における動作解析",
-  "title_en": "",
+  "title_en": "Motion Analysis of the AIKIDO Skill \"Tenkan Movement\" by Using Motion Capture System and Surface EMG.",
   "authors": [
    "西尾 健",
    "浪花 啓右",
@@ -1815,7 +1815,7 @@
   "cat": "domestic",
   "year": 2015,
   "title": "粗いEMG情報を用いて関節剛性を表現するマスタースレーブシステムの提案",
-  "title_en": "",
+  "title_en": "Proposition of Master Slave System Representing Joint Stiffness by Using Coarse Quantization Surface EMG",
   "authors": [
    "西尾 健",
    "浪花 啓右",
@@ -1833,7 +1833,7 @@
   "cat": "domestic",
   "year": 2015,
   "title": "螺旋配置FST (FST-Helix)による姿勢計測システムの構築",
-  "title_en": "",
+  "title_en": "Construction of attitud 1 measurement system by FST-Helix",
   "authors": [
    "杉本 克文",
    "浪花 啓右",
@@ -1850,7 +1850,7 @@
   "cat": "domestic",
   "year": 2015,
   "title": "転動ロボットの外殻に依存した旋回運動の解析",
-  "title_en": "",
+  "title_en": "Spiral of the Rolling Robot with Various Rigid Shells",
   "authors": [
    "平野 哲郎",
    "浪花 啓右",
@@ -1885,8 +1885,8 @@
  {
   "cat": "domestic",
   "year": 2011,
-  "title": "McKibben型空気圧アクチュエータが持つ動的特性のロボット運動の安定性に対する寄与",
-  "title_en": "",
+  "title": "McKibben型空気圧アクチュエータが持つ動的特性のロボット運動の安定性に対する寄与(移動知とその新展開)",
+  "title_en": "Contribution to the robot motion stability of dynamic characteristics of the McKibben pneumatic actuator(Mobiligence)",
   "authors": [
    "浪花 啓右",
    "杉本 靖博",
@@ -1926,7 +1926,7 @@
    "Keisuke Naniwa",
    "Koichi Osuka"
   ],
-  "venue": "IEEE/RSJ 2010 International Conference on Intelligent Robots and Systems (IROS)",
+  "venue": "IEEE/RSJ 2010 International Conference on Intelligent Robots and Systems (IROS 2010)",
   "volume": "",
   "number": "",
   "pages": "",
@@ -1937,7 +1937,7 @@
   "cat": "domestic",
   "year": 2010,
   "title": "ロボットに適用されるMcKibben型空気圧アクチュエータのモデル化とその評価",
-  "title_en": "",
+  "title_en": "Modeling of McKibben pneumatic actuator for a robot and its evaluation",
   "authors": [
    "浪花 啓右",
    "杉本 靖博",

@@ -1,0 +1,23 @@
+{
+ "lab": "フィールドロコモーション研究室",
+ "labEn": "Field Locomotion Lab",
+ "pi": "浪花 啓右",
+ "piEn": "Keisuke Naniwa",
+ "univ": "北海道科学大学",
+ "univEn": "Hokkaido University of Science",
+ "dept": "工学部 機械工学科",
+ "zip": "〒006-8585",
+ "address": "北海道札幌市手稲区前田7条15丁目4-1",
+ "email": "naniwa-k [at] hus.ac.jp",
+ "univUrl": "https://www.hus.ac.jp/",
+ "links": [
+  {
+   "label": "researchmap",
+   "url": "https://researchmap.jp/Naniwa_K"
+  },
+  {
+   "label": "ORCID",
+   "url": "https://orcid.org/0000-0003-3171-958X"
+  }
+ ]
+}

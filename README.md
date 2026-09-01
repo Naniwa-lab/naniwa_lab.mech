@@ -3,9 +3,15 @@
 北海道科学大学 工学部 機械工学科 浪花研究室の公式サイトです．
 ビルド不要の静的サイトなので，GitHub Pages にそのまま置けば公開できます．
 
+**公開URL**: <https://jignoah.github.io/naniwa_lab.mech/>
+**リポジトリ**: <https://github.com/jignoah/naniwa_lab.mech>
+
+> 公開はすでに済んでいます．普段の更新は **§2.5 のコマンド** が一番早いです．
+> §1 は初回セットアップの記録として残してあります．
+
 ---
 
-## 1. 公開のしかた（初回だけ）
+## 1. 公開のしかた（初回だけ・記録用）
 
 ### ステップ1：リポジトリを作る
 
@@ -62,6 +68,22 @@ GitHubのWeb画面上で直接編集できるので，PCに何もインストー
 編集手順：
 リポジトリでファイルを開く → 右上の **鉛筆マーク（Edit）** → 書き換える → 下の **Commit changes**
 → 1分ほどでサイトに反映されます．
+
+### 研究室名・所属・連絡先を変える → `data/site.json`
+
+ここを直すと，**全ページのヘッダ・フッタが一括で変わります**．
+
+```json
+{
+ "lab": "フィールドロコモーション研究室",
+ "univ": "北海道科学大学",
+ "dept": "工学部 機械工学科",
+ "address": "北海道札幌市手稲区前田7条15丁目4-1",
+ "email": "naniwa-k [at] hus.ac.jp"
+}
+```
+
+（ブラウザのタブに出るタイトルだけは各HTMLの `<title>` にあります）
 
 ### お知らせを追加する → `data/news.json`
 
@@ -120,8 +142,17 @@ GitHubのWeb画面上で直接編集できるので，PCに何もインストー
 `cat` は `journal`（学術論文） / `intl`（国際会議） / `domestic`（国内学会） / `preprint` のいずれか．
 著者名を `"浪花 啓右"` と書くと，サイト上で自動的に太字になります．
 
-> researchmap を更新したあとで一括で入れ直したいときは，声をかけてもらえれば
-> 最新版を取得して `publications.json` を作り直します．
+**researchmap を更新したあと，一括で入れ直せます．**
+手元のPCでこのフォルダに移動して，以下を実行してください．
+
+```bash
+python3 _tools/fetch_researchmap.py Naniwa_K
+```
+
+researchmap から論文・講演を全件取得し，カテゴリを自動判定して
+`data/publications.json` を作り直します（元のファイルは `.bak` として残ります）．
+あとはそのファイルを GitHub に上げ直すだけです．
+分類がおかしいものがあれば `"cat"` を手で直してください．
 
 ### 本文を書き換えたい（研究内容・配属ページなど）
 
@@ -138,6 +169,77 @@ HTMLですが，日本語の文章部分を書き換えるだけなら難しく�
 --earth:    #a8621f;   /* 差し色（土っぽいオレンジ） */
 --bg-deep:  #10222e;   /* トップのヒーロー背景 */
 ```
+
+---
+
+## 2.5 コマンドでまとめて更新する（おすすめ）
+
+`_tools/labsite.py` を使うと，JSONを手で開かずに更新できます．
+書式ミスやカンマの付け忘れが起きないので，こちらのほうが安全です．
+
+`uv` が入っていれば必要なライブラリを勝手に用意してくれます．
+
+```bash
+cd ~/Dropbox/研究室HP/lab-site
+```
+
+### お知らせを追加する
+
+```bash
+uv run _tools/labsite.py news add \
+  --title "○○くんが△△講演会で優秀講演賞を受賞しました" \
+  --cat award \
+  --sub "補足があれば．なくてもOK" \
+  --url "https://example.com"
+```
+
+`--cat` は `paper`（論文）/ `award`（受賞）/ `event`（イベント）/ `lab`（研究室）．
+`--date` を省くと今日の日付になります．追加後は自動で日付降順に並びます．
+
+```bash
+uv run _tools/labsite.py news list      # 番号付きで一覧
+uv run _tools/labsite.py news rm 3      # 3番を削除
+```
+
+### 写真を追加する
+
+長辺1600pxに縮小し，スマホ写真の向きも直したうえで `images/` に入れます．
+
+```bash
+uv run _tools/labsite.py photo add ~/Desktop/IMG_1234.jpg --as naniwa.jpg
+uv run _tools/labsite.py member photo images/naniwa.jpg   # 教員の顔写真に設定
+uv run _tools/labsite.py photo list
+```
+
+### 学生を追加する
+
+同じ学年に「（準備中）」の枠があれば，そこに入ります．
+
+```bash
+uv run _tools/labsite.py student add --grade B4 --name "山田 太郎" --theme "不整地走破性の評価"
+uv run _tools/labsite.py student clear   # 全部消す
+```
+
+### 公開前に検査する
+
+JSONの書式，カテゴリの綴り，参照している画像の有無などをまとめて確認します．
+
+```bash
+uv run _tools/labsite.py check
+```
+
+### GitHubに反映する
+
+検査 → コミット → push をまとめて行います．
+
+```bash
+./_tools/deploy.sh "お知らせを1件追加"
+```
+
+1〜2分で公開サイトに反映されます．
+
+> このフォルダが git リポジトリになっていない場合は，先に一度だけ
+> `git clone https://github.com/jignoah/naniwa_lab.mech.git` した中で作業してください．
 
 ---
 
@@ -158,12 +260,18 @@ assets/
   publications.js   業績の絞り込みと検索
 
 data/
+  site.json         研究室名・所属・連絡先（ヘッダ／フッタに反映）
   news.json         お知らせ      ← よく触る
   members.json      メンバー      ← よく触る
   publications.json 業績（104件） ← たまに触る
 
 images/             写真置き場（現在は空）
-_tools/build.py     HTMLを生成した内部スクリプト（通常は使いません）
+_tools/
+  labsite.py             お知らせ・写真・メンバーの更新ツール ← よく使う
+  deploy.sh              検査してGitHubへ反映
+  fetch_researchmap.py   researchmapから業績を取り直すスクリプト
+  build.py               HTMLを生成した内部スクリプト（通常は使いません）
+.gitignore          .DS_Store や *.bak をコミットしないための設定
 .nojekyll           GitHub Pagesで必要（消さないこと）
 ```
 

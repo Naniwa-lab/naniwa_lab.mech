@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# fetch_researchmap.py が残すバックアップ
+*.bak

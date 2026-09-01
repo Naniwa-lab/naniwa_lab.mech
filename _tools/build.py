@@ -43,8 +43,8 @@ HEAD = """<!DOCTYPE html>
   <div class="wrap header-inner">
     <div class="brand">
       <a href="index.html">
-        <span class="brand-ja">{site}</span>
-        <span class="brand-en">{en}</span>
+        <span class="brand-ja" data-site="lab">{site}</span>
+        <span class="brand-en" data-site="labEn">{en}</span>
       </a>
     </div>
     <button class="nav-toggle" aria-expanded="false" aria-label="メニュー">MENU</button>
@@ -60,11 +60,11 @@ FOOT = """
   <div class="wrap">
     <div class="footer-grid">
       <div>
-        <p class="footer-lab">{site}（浪花研究室）</p>
+        <p class="footer-lab"><span data-site="lab">{site}</span></p>
         <p class="footer-addr">
-          北海道科学大学 工学部 機械工学科<br>
-          〒006-8585 北海道札幌市手稲区前田7条15丁目4-1<br>
-          E-mail：naniwa-k [at] hus.ac.jp
+          <span data-site="univ">北海道科学大学</span> <span data-site="dept">工学部 機械工学科</span><br>
+          <span data-site="zip">〒006-8585</span> <span data-site="address">北海道札幌市手稲区前田7条15丁目4-1</span><br>
+          E-mail：<span data-site="email">naniwa-k [at] hus.ac.jp</span>
         </p>
       </div>
       <div>
@@ -79,16 +79,17 @@ FOOT = """
       <div>
         <h4>外部リンク</h4>
         <ul>
-          <li><a href="https://www.hus.ac.jp/" target="_blank" rel="noopener">北海道科学大学</a></li>
+          <li><a href="https://www.hus.ac.jp/" data-site-href="univUrl" target="_blank" rel="noopener"><span data-site="univ">北海道科学大学</span></a></li>
+        </ul>
+        <ul data-site-links>
           <li><a href="https://researchmap.jp/Naniwa_K" target="_blank" rel="noopener">researchmap</a></li>
           <li><a href="https://orcid.org/0000-0003-3171-958X" target="_blank" rel="noopener">ORCID</a></li>
-          <li><a href="join.html">配属を考えている方へ</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; {site} / Keisuke Naniwa, Hokkaido University of Science</span>
-      <span>{en}</span>
+      <span>&copy; <span data-site="lab">{site}</span> / <span data-site="pi">Keisuke Naniwa</span></span>
+      <span data-site="labEn">{en}</span>
     </div>
   </div>
 </footer>

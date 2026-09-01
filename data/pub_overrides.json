@@ -1,0 +1,26 @@
+{
+ "_readme": [
+  "researchmap の生データを手で直したい箇所をここに書きます．",
+  "fetch_researchmap.py で再取得しても，この手直しは最後に必ず再適用されるので消えません．",
+  "（2026-08-27 の再取得で手直しが消えたのを防ぐための仕組みです）",
+  "",
+  "match: どのレコードに当てるかの条件．doi か title の完全一致，または title_contains の部分一致．",
+  "set:   上書きしたいフィールドと値．",
+  "note:  なぜ直したかのメモ（動作には影響しません）．",
+  "",
+  "書いたあとは `uv run _tools/labsite.py pubs clean` で反映・確認できます．",
+  "当たらないルールがあれば警告が出ます（researchmap 側が直った合図なので，その行は消してOK）."
+ ],
+ "overrides": [
+  {
+   "match": {
+    "title": "Static and Dynamic Characteristics of McKibben Pneumatic Actuator for Realization of Stable Robot Motionsa"
+   },
+   "set": {
+    "title": "Static and Dynamic Characteristics of McKibben Pneumatic Actuator for Realization of Stable Robot Motions",
+    "venue": "2011 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+   },
+   "note": "researchmap 側でタイトル末尾に余計な a が入っている．誌名に略称 (IROS) を補う．"
+  }
+ ]
+}
