@@ -10,7 +10,7 @@ cd "$(dirname "$0")/.."
 
 if [ ! -d .git ]; then
   echo "エラー: このフォルダは git リポジトリではありません．" >&2
-  echo "  git clone https://github.com/jignoah/naniwa_lab.mech.git" >&2
+  echo "  git clone https://github.com/Naniwa-lab/naniwa_lab.mech.git" >&2
   exit 1
 fi
 
@@ -35,4 +35,4 @@ git commit -m "${1:-サイト更新}"
 git push
 
 echo
-echo "反映しました．1〜2分で https://jignoah.github.io/naniwa_lab.mech/ に出ます．"
+echo "反映しました．1〜2分で https://naniwa-lab.github.io/naniwa_lab.mech/ に出ます．"
