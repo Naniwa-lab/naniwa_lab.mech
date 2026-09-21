@@ -489,7 +489,7 @@
   "ref": "第44巻, 第4号",
   "doi": "",
   "url": "",
-  "refereed": false,
+  "refereed": true,
   "note": "",
   "gid": "R2"
  },
@@ -505,7 +505,7 @@
   "ref": "第44巻, 第4号",
   "doi": "",
   "url": "",
-  "refereed": false,
+  "refereed": true,
   "note": "",
   "gid": "R1"
  },
@@ -1025,7 +1025,7 @@
   "ref": "第41巻",
   "doi": "",
   "url": "",
-  "refereed": false,
+  "refereed": true,
   "note": "",
   "gid": "R3"
  },
@@ -4184,50 +4184,5 @@
   "refereed": false,
   "note": "",
   "gid": "D151"
- },
- {
-  "cat": "patent",
-  "year": null,
-  "title": "Detection sensor",
-  "title_en": "",
-  "authors": [
-   "浪花啓右",
-   "西川和義",
-   "杉本誠",
-   "本城琢也",
-   "井上大輔",
-   "小谷慎二郎",
-   "土田裕之",
-   "由里高志",
-   "亀田貴理"
-  ],
-  "venue": "中国実用新案",
-  "ref": "CN201320106999.9",
-  "doi": "",
-  "url": "",
-  "refereed": false,
-  "note": "",
-  "gid": ""
- },
- {
-  "cat": "patent",
-  "year": null,
-  "title": "電子装置（近接センサ筐体固定構造）",
-  "title_en": "",
-  "authors": [
-   "浪花啓右",
-   "井上大輔",
-   "杉本誠",
-   "平塚幹夫",
-   "亀田貴理",
-   "平尾康一"
-  ],
-  "venue": "中国実用新案",
-  "ref": "CN201320106916.6",
-  "doi": "",
-  "url": "",
-  "refereed": false,
-  "note": "",
-  "gid": ""
  }
 ]

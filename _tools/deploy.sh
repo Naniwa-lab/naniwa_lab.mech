@@ -15,7 +15,11 @@ if [ ! -d .git ]; then
 fi
 
 echo "── データを検査します ──"
-if command -v uv >/dev/null 2>&1; then
+# 素の python3 で Pillow が使えるならそれで済ませる（オフラインでも動く）．
+# 駄目なら uv run に任せる（PEP 723 のメタデータで Pillow を入れてくれる）．
+if python3 -c "import PIL" >/dev/null 2>&1; then
+  python3 _tools/labsite.py check
+elif command -v uv >/dev/null 2>&1; then
   uv run _tools/labsite.py check
 else
   python3 _tools/labsite.py check

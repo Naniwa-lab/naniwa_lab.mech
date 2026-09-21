@@ -5,7 +5,8 @@
 
 使い方（このファイルがあるフォルダの1つ上で実行）：
 
-    python3 _tools/from_gyoseki.py ~/Dropbox/浪花業績/業績データ_20260910.json
+    python3 _tools/from_gyoseki.py                      ← 最新版を自動で探す
+    python3 _tools/from_gyoseki.py <業績データ.json>     ← ファイルを指定する
 
 researchmap から直接取る fetch_researchmap.py と違い，こちらは
 **手で整えた業績リスト（Excel）を正**とします．
@@ -14,7 +15,7 @@ researchmap から直接取る fetch_researchmap.py と違い，こちらは
 入力の想定（業績データ_YYYYMMDD.json）：
   records  … 論文・国際会議・国内学会・解説（種別で区別）
   awards   … 受賞
-  patents  … 特許
+  （patents（特許）はサイトには載せていません）
 
 出力する cat：
   journal  査読付学術論文
@@ -22,16 +23,23 @@ researchmap から直接取る fetch_researchmap.py と違い，こちらは
   domestic 国内学会
   review   解説・学会誌記事
   award    受賞
-  patent   特許
 """
 
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "publications.json"
+# 業績データの置き場所の候補．
+# Mac本体では ~/Dropbox/浪花業績，Claude 経由だとマウント位置が変わるので
+# リポジトリからの相対（lab-site/../../浪花業績）を先に見る．
+GYOSEKI_DIRS = [
+    ROOT.parent.parent / "浪花業績",
+    Path.home() / "Dropbox" / "浪花業績",
+]
 
 # 種別（入力） → cat（出力）
 def to_cat(kind: str) -> str:
@@ -96,9 +104,30 @@ def award_year(s):
 
 
 def main():
-    if len(sys.argv) < 2:
-        sys.exit("使い方: python3 _tools/from_gyoseki.py <業績データ_YYYYMMDD.json>")
-    src = Path(sys.argv[1]).expanduser()
+    if len(sys.argv) >= 2:
+        src = Path(sys.argv[1]).expanduser()
+    else:
+        # 引数を省略したら業績フォルダの一番新しい 業績データ_YYYYMMDD.json を使う
+        # macOS はファイル名を NFD（濁点を分解した形）で保存するため，
+        # 「業績データ_*.json」の glob が当たらない．正規化して自前で照合する．
+        def looks_like_data(name: str) -> bool:
+            n = unicodedata.normalize("NFC", name)
+            return n.startswith("業績データ_") and n.endswith(".json")
+
+        found = []
+        for cand in GYOSEKI_DIRS:
+            if not cand.is_dir():
+                continue
+            found = sorted((f for f in cand.iterdir() if looks_like_data(f.name)),
+                           key=lambda f: unicodedata.normalize("NFC", f.name))
+            if found:
+                break
+        if not found:
+            where = "\n".join(f"    {c}" for c in GYOSEKI_DIRS)
+            sys.exit("業績データ_YYYYMMDD.json が見つかりません．探した場所：\n" + where +
+                     "\n使い方: python3 _tools/from_gyoseki.py [業績データ_YYYYMMDD.json]")
+        src = found[-1]
+        print(f"  業績データの最新版を使います: {src}")
     if not src.is_file():
         sys.exit(f"{src} が見つかりません．")
 
@@ -116,7 +145,8 @@ def main():
             "ref": (r.get("巻号ページ / 講演番号") or "").strip(),
             "doi": bare_doi(r.get("DOI / URL")),
             "url": other_url(r.get("DOI / URL")),
-            "refereed": r.get("査読") == "有",
+            # 解説・学会誌記事は元データで「無」になっているが査読あり（2026-09-21 先生確認）
+            "refereed": r.get("査読") == "有" or to_cat(r.get("種別", "")) == "review",
             "note": "",
             "gid": r.get("業績ID") or "",
         })
@@ -137,21 +167,9 @@ def main():
             "gid": a.get("業績ID") or "",
         })
 
-    for p in d.get("patents", []):
-        pubs.append({
-            "cat": "patent",
-            "year": None,
-            "title": (p.get("名称") or "").strip(),
-            "title_en": "",
-            "authors": split_authors(p.get("発明者")),
-            "venue": (p.get("種別") or "").strip(),
-            "ref": (p.get("番号") or "").strip(),
-            "doi": "",
-            "url": "",
-            "refereed": False,
-            "note": "",
-            "gid": "",
-        })
+    # 特許はサイトには載せない（2026-09-21 先生の判断）．
+    # 載せたくなったら d["patents"] を cat="patent" で追加すればよい
+    # （publications.js / labsite.py 側は patent に対応済み．ただし年が無いので「年不明」になる）．
 
     order = {"journal": 0, "intl": 1, "domestic": 2, "review": 3, "award": 4, "patent": 5}
     pubs.sort(key=lambda p: (-(p["year"] or 0), order.get(p["cat"], 9), p["title"]))
