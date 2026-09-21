@@ -378,6 +378,35 @@ a:hover { text-decoration: underline; }
 .small { font-size: 13px; }
 .hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
 
+/* ---- photos (2026-09-21) ---- */
+.card-img {
+  width: calc(100% + 56px); max-width: none; margin: -28px -28px 20px;
+  aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0;
+  border-bottom: 1px solid var(--line);
+}
+.figrow {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px; margin: 22px 0 30px;
+}
+.figrow figure { margin: 0; }
+.figrow img {
+  width: 100%; aspect-ratio: 4 / 3; object-fit: cover;
+  border-radius: var(--radius); border: 1px solid var(--line); background: var(--bg-alt);
+}
+.figrow figcaption { font-size: 12.5px; color: var(--ink-mute); margin-top: 7px; line-height: 1.6; }
+.gallery { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); margin: 0; }
+.gallery img { aspect-ratio: 3 / 2; }
+.hero-photo {
+  margin-top: 40px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+}
+.hero-photo img {
+  aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius);
+  border: 1px solid rgba(255,255,255,.14);
+}
+@media (max-width: 640px) {
+  .hero-photo { grid-template-columns: repeat(3, 1fr); gap: 5px; margin-top: 28px; }
+}
+
 @media print {
   .site-header, .site-footer, .pub-toolbar, .hero-actions { display: none; }
   body { font-size: 10.5pt; }
