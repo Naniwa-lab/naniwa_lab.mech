@@ -378,6 +378,8 @@ a:hover { text-decoration: underline; }
 .small { font-size: 13px; }
 .hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
 
+.badge-award { background: #f6ecdf; color: var(--earth); }
+
 @media print {
   .site-header, .site-footer, .pub-toolbar, .hero-actions { display: none; }
   body { font-size: 10.5pt; }

@@ -148,6 +148,7 @@
           '<div class="stat"><div class="n">' + n("journal") + '</div><div class="l">学術論文（ジャーナル）</div></div>' +
           '<div class="stat"><div class="n">' + n("intl") + '</div><div class="l">国際会議</div></div>' +
           '<div class="stat"><div class="n">' + n("domestic") + '</div><div class="l">国内学会発表</div></div>' +
+          '<div class="stat"><div class="n">' + n("award") + '</div><div class="l">受賞</div></div>' +
           '<div class="stat"><div class="n">' + (Math.max.apply(null, years) - Math.min.apply(null, years) + 1) +
           '</div><div class="l">年分の業績を掲載</div></div>';
       })

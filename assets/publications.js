@@ -2,12 +2,16 @@
 (function () {
   "use strict";
 
-  var ME = ["浪花 啓右", "浪花啓右", "Keisuke Naniwa", "NANIWA Keisuke", "Naniwa K."];
+  var ME = ["浪花 啓右", "浪花啓右", "Keisuke Naniwa", "NANIWA Keisuke",
+            "Naniwa K.", "K. Naniwa", "Naniwa Keisuke"];
   var CATS = [
     { key: "all", label: "すべて" },
     { key: "journal", label: "学術論文（ジャーナル）" },
     { key: "intl", label: "国際会議" },
     { key: "domestic", label: "国内学会発表" },
+    { key: "review", label: "解説・学会誌記事" },
+    { key: "award", label: "受賞" },
+    { key: "patent", label: "特許" },
     { key: "preprint", label: "プレプリント" }
   ];
 
@@ -54,7 +58,11 @@
       var y = p.year || "年不明";
       (byYear[y] = byYear[y] || []).push(p);
     });
-    var years = Object.keys(byYear).sort(function (a, b) { return b - a; });
+    var years = Object.keys(byYear).sort(function (a, b) {
+      if (a === "年不明") return 1;
+      if (b === "年不明") return -1;
+      return b - a;
+    });
 
     listEl.innerHTML = years.map(function (y) {
       return '<h2 class="pub-year">' + esc(y) + "</h2>" +
@@ -63,14 +71,21 @@
           if (p.refereed) meta.push('<span class="badge">査読付</span>');
           if (p.cat === "journal") meta.push('<span class="badge">Journal</span>');
           if (p.cat === "intl") meta.push('<span class="badge">Intl. Conf.</span>');
+          if (p.cat === "review") meta.push('<span class="badge">解説</span>');
+          if (p.cat === "award") meta.push('<span class="badge badge-award">受賞</span>');
+          if (p.cat === "patent") meta.push('<span class="badge">特許</span>');
           if (p.doi) {
             meta.push('<a class="badge badge-doi" href="https://doi.org/' + esc(p.doi) +
               '" target="_blank" rel="noopener">DOI: ' + esc(p.doi) + "</a>");
           }
           var vol = [];
-          if (p.volume) vol.push("vol. " + esc(p.volume));
-          if (p.number) vol.push("no. " + esc(p.number));
-          if (p.pages) vol.push("pp. " + esc(p.pages));
+          if (p.ref) {
+            vol.push(esc(p.ref));
+          } else {
+            if (p.volume) vol.push("vol. " + esc(p.volume));
+            if (p.number) vol.push("no. " + esc(p.number));
+            if (p.pages) vol.push("pp. " + esc(p.pages));
+          }
           return '<li class="pub-item">' +
             '<span class="t">' + esc(p.title) + "</span>" +
             (p.title_en ? '<span class="a" style="display:block">' + esc(p.title_en) + "</span>" : "") +
@@ -78,6 +93,7 @@
             '<span class="v">' + esc(p.venue) + "</span>" +
             (vol.length ? '<span class="v">, ' + vol.join(", ") + "</span>" : "") +
             (p.year ? '<span class="v">, ' + esc(p.year) + "</span>" : "") +
+            (p.note ? '<span class="a" style="display:block">対象業績：' + esc(p.note) + "</span>" : "") +
             (meta.length ? '<span class="meta">' + meta.join("") + "</span>" : "") +
             "</li>";
         }).join("") + "</ul>";

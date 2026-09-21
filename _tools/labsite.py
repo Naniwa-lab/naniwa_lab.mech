@@ -36,7 +36,7 @@ DATA = ROOT / "data"
 IMAGES = ROOT / "images"
 
 NEWS_CATS = {"paper": "論文", "award": "受賞", "event": "イベント", "lab": "研究室"}
-PUB_CATS = {"journal", "intl", "domestic", "preprint"}
+PUB_CATS = {"journal", "intl", "domestic", "review", "award", "patent", "preprint"}
 IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg"}
 
 
@@ -282,7 +282,10 @@ def cmd_check(a) -> None:
             problems.append(f"publications.json[{i}]: cat が不正です（{p.get('cat')!r}）")
         else:
             counts[p["cat"]] += 1
-        if not isinstance(p.get("year"), int):
+        if p.get("year") is None:
+            # 特許など年の無いものは許容する（サイト上は「年不明」にまとまる）
+            notes.append(f"publications.json[{i}]: year が空です（{p.get('title', '')[:24]}）")
+        elif not isinstance(p.get("year"), int):
             problems.append(f"publications.json[{i}]: year が整数ではありません（{p.get('year')!r}）")
         if not p.get("title"):
             problems.append(f"publications.json[{i}]: title が空です")
@@ -300,7 +303,8 @@ def cmd_check(a) -> None:
     print(f"  教員        {len(members.get('faculty', []))} 名 / 学生 {len(members.get('students', []))} 名")
     print(f"  業績        {len(pubs)} 件"
           f"（ジャーナル {counts['journal']} / 国際会議 {counts['intl']} /"
-          f" 国内 {counts['domestic']} / preprint {counts['preprint']}）")
+          f" 国内 {counts['domestic']} / 解説 {counts['review']} /"
+          f" 受賞 {counts['award']} / 特許 {counts['patent']}）")
 
     if notes:
         print("\n── 気になる点 ──")
