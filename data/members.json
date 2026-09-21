@@ -28,17 +28,97 @@
  "students": [
   {
    "grade": "M2",
-   "name": "（準備中）",
+   "name": "砂子 幸太郎",
+   "theme": ""
+  },
+  {
+   "grade": "M2",
+   "name": "福原 宏太",
    "theme": ""
   },
   {
    "grade": "M1",
-   "name": "（準備中）",
+   "name": "大野 泰世",
+   "theme": ""
+  },
+  {
+   "grade": "M1",
+   "name": "川村 雄大",
+   "theme": ""
+  },
+  {
+   "grade": "M1",
+   "name": "酒谷 悠太",
+   "theme": ""
+  },
+  {
+   "grade": "M1",
+   "name": "佐藤 翔亮",
    "theme": ""
   },
   {
    "grade": "B4",
-   "name": "（準備中）",
+   "name": "河田 流玖",
+   "theme": ""
+  },
+  {
+   "grade": "B4",
+   "name": "合田 陽音",
+   "theme": ""
+  },
+  {
+   "grade": "B4",
+   "name": "平山 雄己",
+   "theme": ""
+  },
+  {
+   "grade": "B4",
+   "name": "日野浦 鳳志",
+   "theme": ""
+  },
+  {
+   "grade": "B4",
+   "name": "田村 寛貴",
+   "theme": ""
+  },
+  {
+   "grade": "B4",
+   "name": "内田 滉介",
+   "theme": ""
+  },
+  {
+   "grade": "B4",
+   "name": "岡 祐翔",
+   "theme": ""
+  },
+  {
+   "grade": "B4",
+   "name": "池田 偉雄",
+   "theme": ""
+  },
+  {
+   "grade": "B3",
+   "name": "今井 里沙",
+   "theme": ""
+  },
+  {
+   "grade": "B3",
+   "name": "笹尾 莉玖",
+   "theme": ""
+  },
+  {
+   "grade": "B3",
+   "name": "佐々木 翔太",
+   "theme": ""
+  },
+  {
+   "grade": "B3",
+   "name": "小半 泰千",
+   "theme": ""
+  },
+  {
+   "grade": "B3",
+   "name": "大東 遼生",
    "theme": ""
   }
  ],
